@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -153,6 +154,93 @@
             </div>
 	    </div>
         <hr />
+        <div class="container-fluid headpad">
+	    	<h2 class="intro">Blog</h2>
+            <br />
+	    	<div class="row">
+				<div class="showcase col-12 col-md-6 col-lg-4">
+					<div class="card">
+						<img class="card-img-top" height="150" src="https://poonlonghei.github.io/img/showcase/woocommerce-logo.jpg">
+						<div class="card-overlay">
+							<div class="card-overlay-text">
+								<h5><b>Shorten WooCommerce Product Titles</b></h5>
+								<i>17 July 2025</i>
+								<br /><br />
+								<button type="button" class="btn btn-sm btn-outline-info" data-toggle="modal"data-target="#art-1">Read More</a>
+							</div>
+						</div>
+						<div class="modal fade" id="art-1" tabindex="-1" role="dialog">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title"><b>Shorten WooCommerce Product Titles</b></h4> 
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									</div>
+									<div class="modal-body">
+										<div id="ggj2020Carousel" class="carousel slide" data-ride="carousel">
+											<div class="carousel-inner">
+												<div class="carousel-item active">
+													<img class="d-block w-100" src="https://poonlonghei.github.io/img/showcase/woocommerce-logo.jpg">
+												</div>
+											</div>
+										</div>
+                                        <br />
+                                        <i>Posted on 17 July 2025 (Thursday)</i>
+                                        <br /><br />
+										WooCommerce is a free and one of the most popular eCommerce solution for WordPress. It is include with the features and has everything you need to run a small to mid-size online shop. It is not as powerful or customizable as Shopify or Magento, but it is incomparably easier to set up, host and manage. It is under active development and regularly patched and there are also plentiful commercial themes and third-party plugins for it which further extend its capabilities. WooCommerce is what I usually recommend to my clients unless they need an eCommerce behemoth like Shopify or Magento.
+                                        <br /><br />
+                                        One of my friend, who is also a website developer, share a very little trick for WooCommerce, depending on your WordPress theme, your product titles in the product category view may occasionally be too long. They may overflow their container or break the theme layout in some other way, or you may wish to keep their length standardized if only so that the page looks cleaner and neater, in other words, you may want to shorten your WooCommerce product titles.
+                                        <br /><br />
+                                        One way to do that is with CSS. You might be able to set this following code on your element:
+                                        <br /><br />
+                                        <code>overflow:hidden; text-overflow: ellipsis; white-space: nowrap;</code>
+                                        <br /><br />
+                                        This is nice and simple but has some limitations – you also need to set the width of the element and it’s a pain to make it work with pure CSS if the text extends across several lines.
+                                        <br /><br />
+                                        By far an easier solution is to create a WordPress filter that automatically truncates the product titles:
+                                        <br /><br />
+                                        <code>// Automatically shortens WooCommerce product titles on the main shop, category, and tag pages
+                                        // to a set number of characters 
+                                        function short_woocommerce_product_titles_chars( $title, $id ) {
+                                        if ( ( is_shop() || is_product_tag() || is_product_category() ) && get_post_type( $id ) === 'product' ) {
+                                            // Kicks in if the product title is longer than 60 characters 
+                                            if ( strlen( $title ) > 60) {
+                                            // Shortens it to 60 characters and adds ellipsis at the end
+                                            return substr( $title, 0, 60 ) . '...';
+                                            }
+                                        }
+                                        return $title;
+                                        }
+                                        add_filter( 'the_title', 'short_woocommerce_product_titles_chars', 10, 2 );</code>
+                                        <br /><br />
+                                        Just put the above in your theme’s functions.php and you’re done. It will shorten the product titles on the main shop page and when browsing a specific product category or product tag page. Product titles on the product details page will be unaffected.
+                                        <br /><br />
+                                        If you would like to limit the title length to a specific number of words instead of characters, use this filter instead (modify the number of words – in the snippet set to 5 – as required):
+                                        <br /><br />
+                                        <code>// Automatically shortens WooCommerce product titles on the main shop, category, and tag pages 
+                                        // to a specific number of words
+                                        function short_woocommerce_product_titles_words( $title, $id ) {
+                                        if ( ( is_shop() || is_product_tag() || is_product_category() ) && get_post_type( $id ) === 'product' ) {
+                                            $title_words = explode(" ", $title);
+                                            // Kicks in if the product title is longer than 5 words
+                                            if ( count($title_words) > 5 ) { 
+                                            // Shortens the title to 5 words and adds ellipsis at the end
+                                            return implode(' ', array_slice( $title_words, 0, 5) ) . '...';
+                                            }
+                                        }
+                                        return $title;
+                                        }
+                                        add_filter( 'the_title', 'short_woocommerce_product_titles_words', 10, 2 );</code>
+                                        <br />
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>  
+				</div>   
+            </div>
+	    </div>
+        <hr />
         <div class="container-fluid">
             <h2 class="intro">Contact Me</h2>
             <br />
@@ -161,7 +249,7 @@
                 <br /><br />
                 <span class="oi oi-envelope-closed"></span><a target="_blank" href="mailto:info@chavezpoon.com">info@chavezpoon.com</a>
                 <br /><br />
-                <a target="_blank" class="btn btn-sm btn-primary" href="">Facebook</a> <a target="_blank" class="btn btn-sm btn-secondary" href="">LinkedIn</a> <a target="_blank" class="btn btn-sm btn-dark" href="https://github.com/arcenaga">GitHub</a>
+                <a target="_blank" class="btn btn-sm btn-primary" href="https://www.facebook.com/poonlhchavez/">Facebook</a> <a target="_blank" class="btn btn-sm btn-secondary" href="https://www.linkedin.com/in/poonlonghei/">LinkedIn</a> <a target="_blank" class="btn btn-sm btn-dark" href="https://github.com/poonlonghei">GitHub</a>
             </h5>
         </div>
         <hr />
