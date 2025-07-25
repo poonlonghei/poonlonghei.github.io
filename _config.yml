@@ -19,9 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Chavez L. H. Poon
+tagline: Freelance Website Designer and Developer
 logo: /assets/images/logo.avif
-favicon: /assets/images/favicon.ico
-baseurl: ""
 url: "http://poonlonghei.github.io" 
 
 ##
@@ -44,7 +43,6 @@ contact_channels:
   github: "https://github.com/poonlonghei"
   threads: "https://www.threads.net/@_chavhei03_"
   linkedin: "https://www.linkedin.com/in/poonlonghei/"
-  instagram: "https://www.instagram.com/_chavhei03_/"
 
 ##
 # Plugins configuration
