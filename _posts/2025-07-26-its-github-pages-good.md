@@ -5,9 +5,6 @@ image: "https://allvectorlogo.com/img/2021/12/github-logo-vector.png"
 date: 2025-07-26
 category: GitHub
 author: Chavez Poon
-tags:
-  - GitHub Pages
-  - Static Web Hosting
 ---
 
 GitHub Pages is a free hosting service provided by GitHub that allows users to host static websites directly from their GitHub repositories. It is a popular choice for developers and designers who want to showcase their work, create documentation, or build personal websites without the need for a separate hosting provider.
