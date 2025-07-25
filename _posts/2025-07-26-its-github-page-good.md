@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's GitHub Page good?
-image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3drNDY0Mjc2LWltYWdlLmpwZw.jpg](https://allvectorlogo.com/img/2021/12/github-logo-vector.png"
+image: "https://allvectorlogo.com/img/2021/12/github-logo-vector.png"
 date: 2025-07-26
 category: GitHub
 author: Me
