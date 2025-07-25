@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Typewriter effects with JavaScript
-description: How to make typewriter effects in your website with JavaScript?
 image: "https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/07/typewriter-animation-text.gif"
 date: 2025-07-22
 category: [JavaScript, CSS]
