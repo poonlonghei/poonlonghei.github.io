@@ -2,7 +2,7 @@
 layout: project
 title: Domus Romanum Orientale
 image: >-
-  https://poonlonghei.github.io/assets/images/poonlonghei.jpg
+  https://poonlonghei.github.io/assets/images/romanumorientale.png
 category: Shopify
 tags:
   - Shopify
