@@ -25,6 +25,4 @@ You can also customize the typewriter effect by adding some CSS styles to the el
 #typewriter::after { content: "|"; // The cursor character animation: blink 1s infinite; // The blinking animation } @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
 ```
 
-This CSS adds a blinking cursor effect to the element by using the ::after pseudo-element and the animation property. The cursor character is set to "|", and the animation is defined using the @keyframes rule to create a blinking effect.
-
 Overall, the typewriter effect is a fun and engaging way to display text on your website. It can be used to grab the user’s attention and make your content more interactive. With just a few lines of JavaScript and CSS, you can create a typewriter effect that will impress your visitors and enhance their experience on your website.
