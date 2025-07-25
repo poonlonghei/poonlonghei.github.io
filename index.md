@@ -31,5 +31,3 @@ I believe the process of creating some intresting and amazing stuffs from nothin
 I am always looking for new challenges and opportunities to expand my skills and knowledge in the field of website design and development. If you are looking for a reliable and skilled website designer and developer, I would be happy to discuss your project with you.
 
 Thank you for considering me for your website design and development needs. I look forward to working with you!
-
--  [My Personal Website]({% link https://chavezpoon.com %})
