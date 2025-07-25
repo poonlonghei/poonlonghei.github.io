@@ -13,8 +13,8 @@ Shortening product titles can help improve the overall appearance of your produc
 
 To shorten WooCommerce product titles, you can use a simple code snippet that will automatically truncate the title to a specified length. Here’s an example of how to do this:
 
-'''
+```
 add_filter('woocommerce_product_title', 'shorten_product_title', 10, 2); function shorten_product_title($title, $id) { $max_length = 30; // Set the maximum length of the title if (strlen($title) > $max_length) { $title = substr($title, 0, $max_length) . '...'; } return $title; }
-'''
+```
 
 In this code snippet, we use
