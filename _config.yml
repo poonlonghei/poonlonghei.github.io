@@ -52,3 +52,5 @@ jekyll-archives:
   layout: blog
   permalinks:
     category: "/category/:name/"
+
+future: true
