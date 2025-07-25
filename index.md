@@ -6,24 +6,28 @@ description: >-
   en diversas etapas del ciclo de desarrollo de aplicaciones.
 image: /assets/images/main.avif
 main_content: >
-  # Hello Friend. Hello World.
+  # Chavez L. H. Poon
 
-
-  **Solum remis procul; poenam, corde?** Te quoque facti agros, querorque,
-  excutis
-
-  quoque vestigia substricta caelestique posuisset litore: suaque. **Et
-  limine**, et
-
-  nimium nec io diemque vocat spicea et horror licet leto fortuna suis cum.
-  **Lecto viae, quod Naxos tumulos quoque.** Et illo de nati iuvenci oris habet,
-  perdidit parantur! **#Rails #Ruby #Python #HTML #Css #Js #AWS**
+  **Freelance Website Designer and Developer based in Hong Kong**
 footer: true
 permalink: /
 ---
-## Hello World
+## Learn more about me...
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat porta lorem, non auctor magna aliquet ac. Nam finibus in massa quis molestie. Vestibulum malesuada iaculis consequat. Phasellus sagittis, nisl non semper vestibulum, tellus enim interdum purus, ac pretium magna lectus ac turpis. Phasellus scelerisque hendrerit magna vitae fermentum. Praesent facilisis erat viverra eros tristique, id faucibus eros volutpat. Duis tempus arcu in felis sollicitudin, in sodales leo scelerisque. Nullam dapibus libero eu iaculis rhoncus.
+Hello! My name is Chavez Poon, and I am a freelance website designer and developer.
 
-Nulla sed lorem imperdiet, efficitur velit et, mollis neque. Etiam placerat vehicula diam, a scelerisque diam posuere vel. Sed a convallis elit. Proin sodales, mi sit amet aliquam lobortis, ligula elit tristique justo, sodales placerat diam nunc vitae eros. Etiam maximus mauris eget sem varius, mollis ullamcorper metus porttitor. Aenean at elit sodales, rutrum ex tincidunt, molestie lorem. Donec in ante fermentum, pharetra dolor in, tempus nunc. Vivamus in lacinia lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+I was born, raised and educated in Hong Kong, where I earned my Diploma of Vocational Education in Information Technology in December 2023.
 
+I have a passion for technology and the internet, which has led me to pursue a career in website design and development. I have been working in this field since 2020, and I have gained extensive experience in creating and managing websites for various clients.
+
+My expertise includes HTML, CSS, JavaScript, and various content management systems such as WordPress and Shopify. I am also proficient in using design tools like Adobe Dreamweaver.
+
+I enjoy the challenge of creating visually appealing and user-friendly websites that meet the needs of my clients. I take pride in my ability to deliver high-quality work on time and within budget.
+
+In addition to my technical skills, I am a strong communicator and collaborator. I believe that effective communication is key to successful project management, and I strive to maintain open lines of communication with my clients throughout the design and development process.
+
+I believe the process of creating some intresting and amazing stuffs from nothing is deeply rewarding and seeing your work come together and materialize on a computer screen is a feeling like no other.
+
+I am always looking for new challenges and opportunities to expand my skills and knowledge in the field of website design and development. If you are looking for a reliable and skilled website designer and developer, I would be happy to discuss your project with you.
+
+Thank you for considering me for your website design and development needs. I look forward to working with you!
