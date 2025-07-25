@@ -2,6 +2,7 @@
 layout: post
 title: It's GitHub Page good?
 image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2xyL3drNDY0Mjc2LWltYWdlLmpwZw.jpg"
+date: 2025-07-26
 category: GitHub
 author: Me
 ---
