@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5 years as Website Designer and Developer
-image: 
+image: "https://t4.ftcdn.net/jpg/03/05/23/35/360_F_305233591_U7DvegTtiIoP2CWNUpR5qxrFvqpjpYW9.jpg"
 date: 2025-07-26
 category: Daily Life
 author: Chavez Poon
