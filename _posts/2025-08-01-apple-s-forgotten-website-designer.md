@@ -2,7 +2,7 @@
 layout: post
 title: Apple's Forgotten Website Designer
 image: "https://upload.wikimedia.org/wikipedia/en/7/79/IWeb.png"
-date: 2025-07-27
+date: 2025-08-01
 category: Web Design
 author: Chavez Poon
 ---
