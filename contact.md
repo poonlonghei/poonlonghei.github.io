@@ -15,6 +15,9 @@ Contact Address: 31-39A Waterloo Road, Yau Ma Tei, Kowloon, Hong Kong SAR
 Social Media:
 * [Facebook](https://www.facebook.com/poonlhchavez/){:target="_blank"}
 * [Instagram](https://www.instagram.com/_chavhei03_/){:target="_blank"}
+* [Meta Threads](https://www.threads.com/@_chavhei03_){:target="_blank"}
+* [LinkedIn](https://www.linkedin.com/in/poonlonghei/){:target="_blank"}
+* [YouTube Channel](https://www.youtube.com/@cyrillusmariae){:target="_blank"}
 
 ## Friendly Reminder
 
