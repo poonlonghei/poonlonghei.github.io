@@ -23,3 +23,5 @@ plugins:
  - jekyll-remote-theme
  - jekyll-feed
  - jektex
+
+future: true
