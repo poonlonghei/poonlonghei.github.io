@@ -4,6 +4,10 @@ permalink: "/about/"
 layout: page
 ---
 
+> Believe what you do, teach what you believe, and practice what you teach.
+>
+> 你要明白你所做的，要教導你所信仰的，要實行你所教導的。
+
 Welcome to my modest personal website. I probably need a little bit of introduction to those who have been on the internet world for over the past few years.
 
 For the benefit of those who have stumbled onto this website by any kinds of “accident”, I’ll give you a brief story of my life.
