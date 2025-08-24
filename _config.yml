@@ -28,5 +28,5 @@ future: true
 
 footer:
   enable_footer: true
-  footer_description: "Powered by Jekyll with contrast theme, Histed by Github Pages"
+  footer_description: "Powered by Jekyll with contrast theme, Histed by Github Pages."
   copyright_text: "Copyright © 2025 Chavez Cyrillus Mariae Poon. All rights reserved."
