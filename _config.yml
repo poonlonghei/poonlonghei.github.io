@@ -9,8 +9,8 @@ navigation:
   - {file: "index.md"}
   - {file: "about.md"}
   - {file: "publications.md"}
+  - {file: "contact.md"}
   - {file: "blog.html"}
-  - {title: Feed, icon: rss, url: "/feed.xml"}
 
 remote_theme: niklasbuschmann/contrast
 
