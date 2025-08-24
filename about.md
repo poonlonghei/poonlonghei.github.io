@@ -4,16 +4,20 @@ permalink: "/about/"
 layout: page
 ---
 
-My name is Chavez Poon, I am a young Traditionalist Roman Catholic Acolyte and Master of Ceremonies in Hong Kong.
+Welcome to my modest personal website. I probably need a little bit of introduction to those who have been on the internet world for over the past few years.
 
-I'm an expert in Western Latin Rite Liturgies within the Roman Catholic Church, both Ordinary Form and Extraordinary Form of Roman Rite, and well as other kinds of Latin Rite Liturgies such as Ambrosian Rite, Lyonese Rite, Use of Sarum and Anglican Ordinariate Use.
+For the benefit of those who have stumbled onto this website by any kinds of “accident”, I’ll give you a brief story of my life.
 
-For the past 10 years,  I have been served as an Acolyte and Master of Ceremonies for various communities and parishes. Currently, I regularly serves Holy Mass and other liturgies upon any invitations and appointments.
+My name is Chavez L. H. Poon, my baptismal name is “Cyrillus Mariae”, I was born in Hong Kong in 14th of June in the year of 2003 during the SARS Pandemic, my childhood imagination was divided between the historical church buildings and the sacred arts, when I was in primary school, under the influence of the Catholic culture inside the school, I was baptised as Roman Catholic in the year of 2012, at that time I was 8th years old.
 
-I also a member of the Confraternity of St. Peter. It is a society which gathers those who feel close to the Priestly Fraternity of St. Peter and who wish to support its charism through prayers and sacrifices.
+When I was in college, I started to think of my vocation to becoming a priest, but I think it is impossible to me as I think I did not have to power and strength to attend the priestly formation, but God has given me his miraculous plan, either becoming a priest or living in a normal life as a layperson.
 
-In my personal free time, I loves editing and publishing some various liturgical books such as Order of Holy Mass and other useful liturgical and prayer books into the internet, besides that, I loves playing music instruments such as drums and piano, I also obtained Grade 4 in Rock and Pop drums in the Trinity College London in January 2021.
+For some reason, I started to explore the Western Rite aka Latin Rite liturgies of the Catholic Church, and I’m a experienced Ceremoniere (Liturgical Master of Ceremonies) for over 10 years, I have mainly serving the Holy Mass or other liturgical ceremonies as Ceremoniere by any invitations or private appointments. I also made some liturgical books such as Order of Holy Mass and other items, for example Altar Cards.
 
-I also loves collecting the vintage Roman Catholic vestments, old laptop computers and old operating systems.
+Since January 2023, I joined the Confraternity of St. Peter (Latin: Confraternitas Sancti Petri / Abbreviation: CSP), which is a sodality of members who wish to unite themselves to the Priestly Fraternity of St. Peter and aid in the work of the fraternity, primarily by their own daily prayers.
 
-You are always welcome to visit my personal homepage: https://sites.google.com/view/chavezpoon/home
+Aside from my religion, I’m an Information Technology enthusiast since my days back in primary school, I love collecting old computers and operating systems, which is one of my hobbies.
+
+Of course, not every single day in my life is a good day, somedays I return home I feel disappointed, when I look back at my life, I realize God has already uniquely prepared the path for me and guides me every single step of the way. I give thanks to God for so many wonderful people who support me in my spiritual life, to love me, comfort me, encourage me and pray for me.
+
+And I also give thanks to God for all that I have and all that I am, especially for over 10 years as a Roman Catholic. I feel so blessed, happy and contented.
