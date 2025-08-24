@@ -12,6 +12,9 @@ navigation:
   - {file: "contact.md"}
   - {file: "blog.html"}
 
+external:                       
+  - {title: 中文, url: "mailto:author@example.com"}
+
 remote_theme: niklasbuschmann/contrast
 
 plugins:
