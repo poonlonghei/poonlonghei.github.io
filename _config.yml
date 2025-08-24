@@ -10,7 +10,6 @@ navigation:
   - {file: "about.md"}
   - {file: "publications.md"}
   - {file: "blog.html"}
-  - {title: Color, icon: moon, url: "javascript:toggle()"}
   - {title: Feed, icon: rss, url: "/feed.xml"}
 
 remote_theme: niklasbuschmann/contrast
