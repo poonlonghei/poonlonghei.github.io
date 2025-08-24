@@ -12,6 +12,10 @@ Telephone: [(+852) 9452 1580](http://wa.me/85294521580){:target="_blank"}
 
 Contact Address: 31-39A Waterloo Road, Yau Ma Tei, Kowloon, Hong Kong SAR
 
+Social Media:
+* [Facebook](https://www.facebook.com/poonlhchavez/){:target="_blank"}
+* [Instagram](https://www.instagram.com/_chavhei03_/){:target="_blank"}
+
 ## Friendly Reminder
 
 * There is a voicemail service with my telephone number. If you are diverted to it, please kindly leave a message with your contact details behind, I will be very happy to get back to you when available.
