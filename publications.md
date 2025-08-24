@@ -4,6 +4,8 @@ permalink: "/publications/"
 layout: page
 ---
 
-## Order of Holy Mass
+## Articles
 
-[The Order of Holy Mass in Anglican Use for the Personal Ordinariates](https://drive.google.com/file/d/1Hqeh1vYGHLlSJ_xuxkj1TlGTEEUx_zFR/view?usp=sharing)
+* [傳統羅馬禮聖週五「苦難預獻禮儀」]()
+
+* [澳門苦難善耶穌聖像出遊]()
