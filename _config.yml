@@ -11,7 +11,7 @@ navigation:
   - {file: "publications.md"}
   - {file: "contact.md"}
   - {file: "blog.html"}
-  - {title: 中文, url: "mailto:author@example.com"}
+  - {title: 中文, url: "/zh-hk/"}
 
 external:
   - {title: Color, icon: moon, url: "javascript:toggle()"}
