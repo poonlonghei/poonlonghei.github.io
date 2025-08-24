@@ -3,7 +3,7 @@ title: "Home"
 layout: page
 ---
 
-## Veritatem Facientes in Caritate
+## Veritatem Facientes in Caritate (Ephesians 4:15)
 
 ### Welcome to Chavez Poon's Personal Website
 
