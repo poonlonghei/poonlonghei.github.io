@@ -5,9 +5,7 @@ layout: page
 
 ## Veritatem Facientes in Caritate
 
-> Believe what you do, teach what you believe, and practice what you teach.
->
-> 你要明白你所做的，要教導你所信仰的，要實行你所教導的。
+### Welcome to Chavez Poon's Personal Website
 
 Chavez Cyrillus Mariae Poon is a Traditional Roman Catholic Acolyte and Liturgical Master of Ceremonies based in the Roman Catholic Diocese of Hong Kong and an expert in Western Latin Rite Liturgies within the Roman Catholic Church, he has served as an Acolyte and Liturgical Master of Ceremonies for various communities and parishes for the past 10 years.
 
