@@ -1,5 +1,5 @@
 ---
-title: "Will Pope Leo XIV reverse “Traditionis Custodes”?"
+title: "Will Pope Leo XIV reverse “Traditionis Custodes?"
 layout: post
 author: "Chavez Poon"
 ---
