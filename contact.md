@@ -1,5 +1,5 @@
 ---
-title: "Contact Me"
+title: "Contact"
 permalink: "/contact/"
 layout: page
 ---
@@ -8,7 +8,7 @@ layout: page
 
 E-Mail: [chavezpoon@icloud.com](mailto:chavezpoon@icloud.com){:target="_blank"}
 
-Telephone: [(+852) 9452 1580](http://wa.me/85294521580)
+Telephone: [(+852) 9452 1580](http://wa.me/85294521580){:target="_blank"}
 
 Contact Address: 31-39A Waterloo Road, Yau Ma Tei, Kowloon, Hong Kong SAR
 
