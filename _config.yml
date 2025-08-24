@@ -11,9 +11,11 @@ navigation:
   - {file: "publications.md"}
   - {file: "contact.md"}
   - {file: "blog.html"}
-
-external:                       
   - {title: 中文, url: "mailto:author@example.com"}
+
+external:
+  - {title: Color, icon: moon, url: "javascript:toggle()"}
+  - {title: Feed, icon: rss, url: "/feed.xml"}
 
 remote_theme: niklasbuschmann/contrast
 
