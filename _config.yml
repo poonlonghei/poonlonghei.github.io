@@ -6,8 +6,9 @@ show_excerpts: false
 show_frame: true
 
 navigation:
-  - {file: "index.html"}
+  - {file: "index.md"}
   - {file: "about.md"}
+  - {file: "blog.html"}
   - {title: Color, icon: moon, url: "javascript:toggle()"}
   - {title: Feed, icon: rss, url: "/feed.xml"}
 
