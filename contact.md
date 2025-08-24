@@ -26,3 +26,5 @@ Social Media:
 * You can also reach me on WhatsApp or WeChat using my telephone number.
 
 * E-Mail is the best method for general correspondences. You will recieve an acknowledgement after your message has been sent and noted, but please allow a turn-around of 1 to 2 calendar days, and this will likely take a longer in holiday periods.
+
+* If you're wanting to rob me at gunpoint or collect debt from me, please kindly let me know and I won't open the door!
