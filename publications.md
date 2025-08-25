@@ -12,6 +12,12 @@ layout: page
 
 ## Liturgical Books
 
+### The Order of Holy Mass
+
+* [Ordo Missæ -- Novus Ordo](/files/novusordomissae){:target="_blank"}
+
 * [The Order of Holy Mass in Anglican Use for the Personal Ordinariates](/files/ordinariate-ordomissae.pdf){:target="_blank"}
 
-* [Exercitium Sanctæ Viæ Crucis 朝拜苦路經文](/files/via-crucis.pdf){:target="_blank"}
+### Other Liturgical Books
+
+* [Exercitium Sanctæ Viæ Crucis](/files/via-crucis.pdf){:target="_blank"}
