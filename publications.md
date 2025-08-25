@@ -12,4 +12,6 @@ layout: page
 
 ## Liturgical Books
 
+* [The Order of Holy Mass in Anglican Use for the Personal Ordinariates](/files/ordinariate-ordomissae.pdf){:target="_blank"}
+
 * [Exercitium Sanctæ Viæ Crucis 朝拜苦路經文](/files/via-crucis.pdf){:target="_blank"}
