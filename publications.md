@@ -14,7 +14,7 @@ layout: page
 
 ### The Order of Holy Mass
 
-* [Ordo Missæ -- Novus Ordo](/files/novusordomissae){:target="_blank"}
+* [Ordo Missæ -- Novus Ordo](/files/novusordomissae.pdf){:target="_blank"}
 
 * [The Order of Holy Mass in Anglican Use for the Personal Ordinariates](/files/ordinariate-ordomissae.pdf){:target="_blank"}
 
