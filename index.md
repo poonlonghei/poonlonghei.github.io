@@ -11,7 +11,7 @@ Chavez Cyrillus Mariae Poon is a Traditional Roman Catholic Acolyte and Liturgic
 
 He is also a Member of the Confraternity of St. Peter, it is a society which gathers those who feel close to the Priestly Fraternity of St. Peter and who wish to support its charism through prayers and sacrifices.
 
-Aside from religion, Chavez has been an Information Technology enthusiast since his days in primary school, he obtained his Diploma of Vocational Education in Information Technology in December 2023. He is now working as a freelance website designer and developer, and part-time social media administrator at Pario Education Centre, which is a part of Hong Kong Christian Service.
+Aside from religion, Chavez has been an Information Technology enthusiast since his days in primary school, he obtained his Diploma of Vocational Education in Information Technology in December 2023. He is now working as a freelance website designer and developer, and part-time administrative assistant at Pario Education Centre, which is a part of Hong Kong Christian Service.
 
 In his personal free time, Chavez loves editing anf publishing some various liturgical books such as Order of Holy Mass and other useful liturgical and prayer books into the internet, besides that, he loves playing music instruments such as drums and piano and he obtained Grade 4 in Rock and Pop drums in the Trinity College London in January 2021.
 
