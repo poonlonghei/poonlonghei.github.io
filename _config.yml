@@ -9,6 +9,7 @@ navigation:
   - {file: "index.md"}
   - {file: "about.md"}
   - {file: "publications.md"}
+  - {file: "gallery.md"}
   - {file: "contact.md"}
   - {file: "blog.html"}
   - {title: 中文, url: "/zh-hk/"}
