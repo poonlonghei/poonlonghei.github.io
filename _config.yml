@@ -16,7 +16,6 @@ navigation:
 
 external:
   - {title: Color, icon: moon, url: "javascript:toggle()"}
-  - {title: Github, icon: github, url: "https://github.com/poonlonghei/"}
   - {title: Feed, icon: rss, url: "/feed.xml"}
 
 remote_theme: niklasbuschmann/contrast
