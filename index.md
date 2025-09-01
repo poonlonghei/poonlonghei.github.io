@@ -1,7 +1,6 @@
 ---
 title: "Home"
 layout: page
-image: /assets/images/chavez-1-1536x2048.jpg
 ---
 
 ## Veritatem Facientes in Caritate (Ephesians 4:15)
