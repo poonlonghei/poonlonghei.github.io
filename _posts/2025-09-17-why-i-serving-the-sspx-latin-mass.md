@@ -1,5 +1,5 @@
 ---
-title: "Why I Serve the SSPX Latin Mass"
+title: "Why I serving the SSPX Latin Mass"
 layout: post
 author: "Chavez Poon"
 ---
