@@ -2,7 +2,7 @@
 layout: post
 title: You are so blessed
 date: 2026-01-01
-categories: 
+categories: Musings and Reflections
 ---
 
 If you woke up this morning, with more health than illness, you are more blessed than the million who won't survive the week.
