@@ -6,7 +6,7 @@ subtitle: Veritatem Facientes in Caritate
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: chavez.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
