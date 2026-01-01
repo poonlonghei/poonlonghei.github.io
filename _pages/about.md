@@ -2,15 +2,14 @@
 layout: about
 title: home
 permalink: /
-subtitle: Veritatem Facientes in Caritate
+subtitle: Veritatem Facientes in Caritate (Ephesians 4:15)
 
 profile:
   align: right
   image: chavez.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Elmham House, Friday Market Place</p>
-    <p>Walsingham, Norfolk, United Kingdom, NR22 6EG</p>
+    <p>Elmham House, Friday Market Place, Walsingham, Norfolk, United Kingdom, NR22 6EG</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
