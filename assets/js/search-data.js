@@ -56,6 +56,20 @@ ninja.data = [{
           window.open("mailto:%63%68%61%76%65%7A%70%6F%6F%6E@%69%63%6C%6F%75%64.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-facebook',
+        title: 'Facebook',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://facebook.com/poonlhchavez", "_blank");
+        },
+      },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/_chavhei03_", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
@@ -63,11 +77,11 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-youtube',
+        title: 'YouTube',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://youtube.com/@youtube.com/@cyrillusmariae", "_blank");
         },
       },{
       id: 'light-theme',
