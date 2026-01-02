@@ -34,12 +34,7 @@ ninja.data = [{
             window.location.href = "/blog/2026/you-are-so-blessed/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-happy-and-blessed-new-year-of-2026-to-you-all",
+      },{id: "news-a-happy-and-blessed-new-year-of-2026-to-you-all",
           title: 'A happy and blessed new year of 2026 to you all!',
           description: "",
           section: "News",},{id: "projects-project-1",
