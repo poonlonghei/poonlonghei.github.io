@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-you-are-so-blessed",
+        },{id: "post-one-month-in-walsingham",
+        
+          title: "One Month in Walsingham",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/one-month-in-walsingham/";
+          
+        },
+      },{id: "post-you-are-so-blessed",
         
           title: "You are so blessed",
         
