@@ -9,6 +9,6 @@ It has already been a month since I took up my position as Mass and Pilgrimage O
 
 To be honest, I arrived at a very good time, as the main pilgrimage season here at the Walsingham Basilica will begin this coming March. This gives me a few months to learn and become familiar with all the arrangements and management related to the pilgrimages at the Basilica. I can’t wait to see many pilgrims coming here to pray before Our Lady of Walsingham!
 
-Once again, I would like to thank all the Fathers (especially the Rector, Fr. Sunday, and Fr. Eric), the Sisters, and all the staff at the Walsingham Basilica for helping and guiding me as I adapt to life and work here at the Basilica!
+Once again, I would like to thank all the Fathers (especially Fr. Robert Billing (aka Father Rector), Fr. Sunday Ikpe, and Fr. Eric Taru), the Sisters, and all the staff at the Walsingham Basilica for helping and guiding me as I adapt to life and work here at the Basilica!
 
 Please continue to pray for my work here at the Walsingham Basilica!
