@@ -50,7 +50,13 @@ redirect_from:
 #### Video Editing and Production
   * Apple Final Cut Pro, Adobe Premiere Pro, DaVince Resolve and CapCut
    
-## Ecclesiastical Sacraments
+## Ecclesiastical Background
+
+### Religion:
+* Roman Catholic
+
+### Baptismal Name:
+* Cyrillus Mariae (Cyril Mary)
 
 ### Sacrament of Baptism:
 * Date: 9th April 2012
@@ -59,15 +65,17 @@ redirect_from:
 ### Sacrament of Confrimation:
 * Date: 11th October 2014
 * Location: Rosary Church, Kowloon, Hong Kong
-* Celebrant: Bishop Michael Yeung Ming Cheung
-* Confirmation Name: Cyrillus Mariae (Cyril Mary)
+* Celebrant: Bishop Michael Yeung Ming Cheung 
+
+### Ecclesiastical Confraternity Membership
+* Society of St. Justin Martyr (Societas Sancti Iustini Martyris, SSIM)
+  * June 2026 - Present
+ 
+* Confraternity of St. Peter (Confraternitas Sancti Petri, CSP)
+  * January 2022 - Present
 
 ## Publications
 
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-## Service and leadership
-
-* Currently signed in to 43 different slack teams
