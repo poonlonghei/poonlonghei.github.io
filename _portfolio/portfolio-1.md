@@ -1,7 +1,10 @@
 ---
 title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Hundreds Walk 50 Miles to Walsingham on Traditional Catholic Pilgrimage"
 collection: portfolio
+date: 2026-08-30
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Covered the Latin Mass Society’s Annual Pilgrimage to Walsingham through on-site filming and interviews on 30 August 2026 (Sunday).
+
+{% include youtube.html id="SLlPvdPkVio" %}
