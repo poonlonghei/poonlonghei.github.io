@@ -12,8 +12,8 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Chavez L. H. Poon"
 title_separator          : "-"
 name                     : &name "Chavez L. H. Poon"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Veritatem Facientes in Caritate"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : "https://poonlonghei.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "poonlonghei/poonlonghei.github.io"
@@ -28,13 +28,13 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Writer, Content Creator and Videographer"
   location         : "Walsingham, Norfolk, United Kingdom"
-  employer         : "Red Brick University"
+  employer         : #
   uri              : "https://www.chavezpoon.com"
   email            : "cyrillusmariae@outlook.com" 
 
   # Academic websites
   academia         : "https://independent.academia.edu/ChavezPoon"
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : # URL 
   googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
@@ -51,20 +51,20 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "poonlonghei"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "poonlonghei" # Replace this with you Bluesky username
-  facebook         : # Username
+  bluesky          : "poonlonghei.bsky.social"
+  facebook         : # poonlhchavez
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "_chavhei03"
   lastfm           : # Username
   linkedin         : "poonlonghei"
   mastodon         : # URL
@@ -77,9 +77,9 @@ author:
   twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
-  wikipedia        : # Username
+  wikipedia        : "FraterCCM"
   xing             : # Username
-  youtube          : # Username
+  youtube          : "cyrillusmariae"
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
