@@ -17,7 +17,7 @@ redirect_from:
 
 * June 2026 - Present: Videographer, Editor and Interviewer (Volunteering)
   * EWTN Great Britain (St. Clare's Media)
-  * Assisting in videography, writing,editing and interviewing for various Catholic events in UK
+  * Assisting in videography, writing, editing and interviewing for various Catholic events in UK
   * Walsingham, Norfolk, United Kingdom
 
 * February 2026 - Present: Acolyte, Master of Ceremonies and Interim Sacristan (Volunteering)
