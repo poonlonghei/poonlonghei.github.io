@@ -1,12 +1,14 @@
 ---
 title: 'Being Pro-Life is promoting “Violence”?'
-date: 2015-08-14
+date: 2026-09-06
 permalink: /posts/2026/09/being-pro-life-is-promoting-violence/
 tags:
   - Pro-Life
   - March for Life
   - EWTN Great Britain
 ---
+
+{% include youtube.html id="SLlPvdPkVio" %}
 
 Yesterday, I attended the annual March for Life in Westminster, London, together with members of the EWTN Great Britain team, as we were invited to cover the event.
 
