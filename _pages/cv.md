@@ -47,7 +47,7 @@ redirect_from:
 #### Website Design
   * HTML, CSS, JavaScript, Bootstrap, Jekyll, WordPress, Wix Studio, Adobe Dreamweaver, Shopify, eCommerce and cPanel
 
-#### Video Editing and Production**
+#### Video Editing and Production
   * Apple Final Cut Pro, Adobe Premiere Pro, DaVince Resolve and CapCut
    
 ## Ecclesiastical Sacraments
