@@ -8,9 +8,6 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Home"
-    url: https://poonlonghei.github.io/
-
   - title: "Publications"
     url: /publications/
     
