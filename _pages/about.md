@@ -19,15 +19,11 @@ Through my writing, liturgical service, content creation, and social media apost
 
 Check out my <a href="https://www.chavezpoon.com" target="_blank">personal website</a>!
 
-<hr>
-
-## Personal Research Interests**
+## Personal Research Interests
 * History of the Roman Liturgy
 * Non-Roman Western Latin Rite Liturgy
 * History of the Roman Catholicism
 * The Liturgical Reform of Vatican II
-
-<hr>
 
 ## News
 * [September 2026] Hello World!
