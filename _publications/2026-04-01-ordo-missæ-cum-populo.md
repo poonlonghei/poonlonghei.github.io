@@ -2,11 +2,11 @@
 title: "Ordo Missæ cum Populo"
 collection: publications
 category: books
-permalink: /publication/2026-04-03-ordo-missæ-cum-populo
+permalink: /publication/2026-04-01-ordo-missæ-cum-populo
 paperurl: 'https://www.academia.edu/175222765/Ordo_Miss%C3%A6_cum_Populo'
-date: 2026-04-03
-venue: 3rd April
-excerpt: 'The Order of the Pre-1955 Good Friday Liturgy'
+date: 2026-04-01
+venue: 1st April
+excerpt: 'The Order of Holy Mass in Latin according to the Ordinary Form of Roman Rite'
 citation: 'Poon, Chavez Cyrillus Mariae. (April 2026). &quot;Ordo Missæ cum Populo&quot;'
 ---
 
