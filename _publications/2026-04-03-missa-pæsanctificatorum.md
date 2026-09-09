@@ -1,7 +1,7 @@
 ---
 title: "Missa Præsanctificatorum"
 collection: publications
-category: manuscripts
+category: books
 permalink: /publication/2026-04-03-missa-pæsanctificatorum
 paperurl: 'https://www.academia.edu/175222915/Missa_Pr%C3%A6sanctificatorum'
 date: 2026-04-03
