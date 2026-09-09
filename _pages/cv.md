@@ -9,12 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
+
 * Diploma of Vocational Education in Information Technology, VTC Youth College (Tseung Kwan O), Hong Kong, 2023
 
-Work experience
-======
+## Work experience
+
 * June 2026 - Present: Videographer, Editor and Interviewer (Volunteering)
   * EWTN Great Britain (St. Clare's Media)
   * Assisting in videography, writing,editing and interviewing for various Catholic events in UK
@@ -35,39 +35,39 @@ Work experience
   * Ensure the smooth running of pilgrim activities, liturgical celebrations, and other events hosted by the Shrine.
   * Walsingham, Norfolk, United Kingsom
   
-Skills
-======
-* **Languages**
+## Skills
+
+### Languages
   * Cantonese (Fluent in Speaking, Writing and Reading)
   * English (Fluent in Speaking, Writing and Reading)
   * Mandarin (Intermediate in Speaking and Reading)
   * Latin (Basic in Speaking and Reading)
  
-* **Technological**
-  * **Website Design**
-    * HTML, CSS, JavaScript, Bootstrap, Jekyll, WordPress, Wix Studio, Adobe Dreamweaver, Shopify, eCommerce and cPanel
+### Technological
+#### Website Design
+  * HTML, CSS, JavaScript, Bootstrap, Jekyll, WordPress, Wix Studio, Adobe Dreamweaver, Shopify, eCommerce and cPanel
 
-  * **Video Editing and Production**
-    * Apple Final Cut Pro, Adobe Premiere Pro, DaVince Resolve and CapCut
+#### Video Editing and Production**
+  * Apple Final Cut Pro, Adobe Premiere Pro, DaVince Resolve and CapCut
    
-Ecclesiastical Sacraments
-======
-**Sacrament of Baptism**:
+## Ecclesiastical Sacraments
+
+### Sacrament of Baptism:
 * Date: 9th April 2012
 * Location: Holy Family Chapel, Kowloon, Hong Kong
 
-**Sacrament of Confrimation**
+### Sacrament of Confrimation:
 * Date: 11th October 2014
 * Location: Rosary Church, Kowloon, Hong Kong
 * Celebrant: Bishop Michael Yeung Ming Cheung
 * Confirmation Name: Cyrillus Mariae (Cyril Mary)
 
-Publications
-======
+## Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
+## Service and leadership
+
 * Currently signed in to 43 different slack teams
