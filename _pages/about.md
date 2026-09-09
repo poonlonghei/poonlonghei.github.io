@@ -18,3 +18,11 @@ Alongside my writing and content creation work, I have more than ten years of ce
 Through my writing, liturgical service, content creation, and social media apostolate, I seek to foster a deeper appreciation of the beauty of the Church’s worship, the continuity of Roman Catholic tradition, and the faithful transmission of the message of the Holy Gospels. My work is intended to contribute, in a modest way, to the preservation, study, and communication of the Church’s liturgical and ecclesiastical heritage.
 
 Check out my <a href="https://www.chavezpoon.com" target="_blank">personal website</a>!
+
+<hr>
+
+**Personal Research Interests**
+* History of the Roman Liturgy
+* Non-Roman Western Latin Rite Liturgy
+* History of the Roman Catholicism
+* The Liturgical Reform of Vatican II
