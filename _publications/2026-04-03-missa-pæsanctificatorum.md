@@ -10,4 +10,4 @@ excerpt: 'The Order of the Pre-1955 Good Friday Liturgy'
 citation: 'Poon, Chavez Cyrillus Mariae. (April 2026). &quot;Missa Præsanctificatorum&quot;'
 ---
 
-This is the Order of the Pre-1955 Good Friday Liturgy, also known as Mass of the Presanctified (Missa Præsanctificatorum). I compiled it using LaTeX with with liturg package.
+An Order of the Pre-1955 Good Friday Liturgy, traditionally known as the Missa Præsanctificatorum (Mass of the Presanctified), according to the liturgical books of the traditional Roman Rite. Typeset and compiled using LaTeX, with the liturg package.
