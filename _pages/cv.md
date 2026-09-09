@@ -22,7 +22,7 @@ redirect_from:
 
 * February 2026 - Present: Acolyte, Master of Ceremonies and Interim Sacristan (Volunteering)
   * Our Lady of Annunciation Church
-  * Served as Acolyte, Master of Ceremonies, and Interim Sacristan, assisting with the preparation and reverent conduct of Masses, Adoration, and other liturgical celebrations 
+  * Served as Acolyte, Master of Ceremonies, and Interim Sacristan, assisting with the preparation and reverent conduct of Holy Masses, Eucharistic Adoration, and other liturgical celebrations.
   * Walsingham, Norfolk, United Kingdom
 
 * June - July 2026: Summer Intern and Participant
