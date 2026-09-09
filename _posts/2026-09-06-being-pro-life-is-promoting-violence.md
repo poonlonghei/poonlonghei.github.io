@@ -8,8 +8,6 @@ tags:
   - EWTN Great Britain
 ---
 
-{% include youtube.html id="SLlPvdPkVio" %}
-
 Yesterday, I attended the annual March for Life in Westminster, London, together with members of the EWTN Great Britain team, as we were invited to cover the event.
 
 The March for Life is a peaceful public witness to the dignity and value of every human life. Yet, for many participants arriving in Westminster, “peaceful” was perhaps not the first word that came to mind.
@@ -48,4 +46,5 @@ We march not because we hate women, but because we refuse to abandon either moth
 
 They may shout. They may disagree with us. But we will continue to pray, to speak, and to witness peacefully for life.
 
+{% include youtube.html id="SLlPvdPkVio" %}
 And for me, that is what the March for Life is ultimately about: a peaceful witness to the dignity of every human life, especially those who have no voice of their own.
