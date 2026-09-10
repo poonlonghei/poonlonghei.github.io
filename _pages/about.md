@@ -17,7 +17,7 @@ Alongside his writing, media, and content creation work, Chavez has more than te
 
 Through his writing, liturgical service, content creation, and social media apostolate, he seeks to foster a deeper appreciation of the beauty of the Church’s worship, the continuity of Roman Catholic tradition, and the faithful transmission of the message of the Holy Gospel. His work seeks, in a modest way, to contribute to the preservation, study, and communication of the Catholic Church’s liturgical and ecclesiastical heritage.
 
-Check out his <a href="https://www.chavezpoon.com" target="_blank">personal website</a>!
+Check out his <a href="https://www.chavezpoon.com" target="_blank">personal website</a> and his <a href="https://poonlonghei.substack.com/" target="_blank">Substack</a>!
 
 ## Personal Research Interests
 * History of the Roman Liturgy
