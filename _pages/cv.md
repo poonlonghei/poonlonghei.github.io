@@ -15,7 +15,7 @@ redirect_from:
 
 ## Work experience
 
-* June 2026 - Present: Videographer, Editor and Interviewer (Volunteering)
+* June 2026 - Present: Production Assistant
   * EWTN Great Britain (St. Clare's Media)
   * Assisting in videography, writing, editing and interviewing for various Catholic events in UK
   * Walsingham, Norfolk, United Kingdom
