@@ -26,4 +26,5 @@ Check out his <a href="https://www.chavezpoon.com" target="_blank">Personal Webs
 * The Liturgical Reform of Vatican II
 
 ## News 
+* [11th September 2026] Published "Ordinarium et Canon Missæ -- Secundum Usum Ecclesiæ Sarum in Angliæ"
 * [3rd April 2026] Published an liturgical book of the Pre-1955 Good Friday Liturgy
