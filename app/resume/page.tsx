@@ -105,10 +105,10 @@ export default function ResumePage() {
             <p className="eyebrow">On this page</p>
             <nav aria-label="Resume sections">
               <a href="#experience">Experience</a>
-              <a href="#service">Liturgical service</a>
-              <a href="#formation">Professional formation</a>
+              <a href="#service">Liturgical and Ceremonial ervice</a>
+              <a href="#formation">Professional Formation</a>
               <a href="#languages">Languages</a>
-              <a href="#skills">Technological skills</a>
+              <a href="#skills">Technological Skills</a>
               <a href="#sacraments">Ecclesiastical Sacraments</a>
             </nav>
           </aside>
@@ -140,11 +140,11 @@ export default function ResumePage() {
 
             <section className="resume-block" id="service" aria-labelledby="resume-service">
               <p className="eyebrow" id="resume-service">
-                02 · Liturgical service
+                02 · Liturgical and Ceremonial Service
               </p>
               <ResumeEntry
                 title="Acolyte, Sacristan & Master of Ceremonies"
-                organisation="Parishes and other Ecclesiastical communities · Hong Kong, Macau & United Kingdom"
+                organisation="Parishes and other Ecclesiastical Communities · Hong Kong, Macau & United Kingdom"
                 period="10+ years"
                 description="Served at Holy Mass and other sacred liturgical celebrations."
               />
@@ -178,7 +178,7 @@ export default function ResumePage() {
 
             <section className="resume-block" id="skills" aria-labelledby="resume-skills">
               <p className="eyebrow" id="resume-skills">
-                05 · Technological skills
+                05 · Technological Skills
               </p>
               <div className="skill-pills">
                 {digitalSkills.map((skill) => (
