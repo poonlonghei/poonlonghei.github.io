@@ -142,7 +142,7 @@ export default function ResumePage() {
               </p>
               <ResumeEntry
                 title="Acolyte, Sacristan & Master of Ceremonies"
-                organisation="Parishes and ecclesial communities · Hong Kong, Macau & United Kingdom"
+                organisation="Parishes and other Ecclesiastical communities · Hong Kong, Macau & United Kingdom"
                 period="10+ years"
                 description="Served at Holy Mass and other sacred liturgical celebrations."
               />
@@ -155,7 +155,7 @@ export default function ResumePage() {
               <ResumeEntry
                 title="EWTN Summer Academy"
                 organisation="Rome, Italy"
-                period="2026"
+                period="22nd June - 1st July 2026"
                 description="Developed interests in Catholic journalism, digital evangelisation, and media communications."
               />
             </section>
