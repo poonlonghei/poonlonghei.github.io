@@ -748,6 +748,11 @@
   border: 0;
 }
 
+.english-content .media-project-heading {
+  width: 100%;
+  text-align: left;
+}
+
 .english-content .media-project-heading .eyebrow {
   color: #809097;
   font: 10px "DM Mono", monospace;
