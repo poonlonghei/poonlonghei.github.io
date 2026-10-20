@@ -2,7 +2,7 @@ import { PageShell } from "@/components/site";
 import { languages } from "@/content";
 import Image from "next/image";
 
-export const metadata = { title: "Résumé" };
+export const metadata = { title: "Curriculum Vitae" };
 
 const digitalSkills = [
   "HTML",
@@ -105,7 +105,7 @@ export default function ResumePage() {
             <p className="eyebrow">On this page</p>
             <nav aria-label="Resume sections">
               <a href="#experience">Experience</a>
-              <a href="#service">Liturgical and Ceremonial ervice</a>
+              <a href="#service">Liturgical and Ceremonial Service</a>
               <a href="#formation">Professional Formation</a>
               <a href="#languages">Languages</a>
               <a href="#skills">Technological Skills</a>
