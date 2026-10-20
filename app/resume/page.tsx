@@ -194,12 +194,12 @@ export default function ResumePage() {
               <ResumeEntry
                 title="Sacrament of Baptism"
                 organisation="Location: Holy Family Chapel, Kowloon, Hong Kong"
-                period="Date: 9 April 2012"
+                period="Date: 9th April 2012"
               />
               <ResumeEntry
                 title="Sacrament of Confirmation"
                 organisation="Location: Rosary Church, Kowloon, Hong Kong"
-                period="Date: 11 October 2014"
+                period="Date: 11th October 2014"
                 description={[
                   "Celebrant: Bishop Michael Yeung Ming Cheung",
                   "Confirmation Name: Cyril Mary (Cyrillus Mariae)",
