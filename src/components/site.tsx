@@ -11,6 +11,7 @@ export function SiteHeader({ chinese = false }: { chinese?: boolean }) {
         <a href="/">Home</a>
         <a href="/resume/">Curriculum Vitae</a>
         <a href="/portfolio/">Portfolio</a>
+        <a href="/gallery/">Gallery</a>
         <a href="/blog/">Blog</a>
         <a className="english-nav-contact" href="/#contact">Get in touch <span aria-hidden="true">↗</span></a>
       </nav>
