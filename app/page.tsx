@@ -28,7 +28,10 @@ export default function HomePage() {
           <p className="english-eyebrow">// A little about me</p>
           <h2>Faith, people<br />&amp; the stories between.</h2>
           <p>Born and raised in Hong Kong, now at home in Walsingham, United Kingdom. My work lives where Catholic life, careful storytelling, and thoughtful communication meet.</p>
-          <a className="english-button english-button-outline" href="/resume/">Read my CV <span>↗</span></a>
+          <div className="english-about-actions">
+            <a className="english-button english-button-outline" href="/resume/">Read my CV <span>↗</span></a>
+            <a className="english-button english-button-outline" href="/biography/">Read my biography <span>↗</span></a>
+          </div>
         </div>
         <div className="english-about-detail">
           <p className="english-eyebrow">// What I do <span>01</span></p>

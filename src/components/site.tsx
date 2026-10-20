@@ -9,6 +9,7 @@ export function SiteHeader({ chinese = false }: { chinese?: boolean }) {
       <a className="english-brand" href="/" aria-label="Chavez Poon home"><span>C</span><i aria-hidden="true">P</i></a>
       <nav className={`english-nav${menuOpen ? " is-open" : ""}`} id="site-navigation" aria-label="Main navigation">
         <a href="/">Home</a>
+        <a href="/biography/">Biography</a>
         <a href="/resume/">Curriculum Vitae</a>
         <a href="/portfolio/">Portfolio</a>
         <a href="/gallery/">Gallery</a>
