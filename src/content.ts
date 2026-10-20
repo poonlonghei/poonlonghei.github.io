@@ -60,7 +60,7 @@ export const posts: BlogPost[] = [
     sections: [
       { heading: "A fresh start", paragraphs: ["Starting again with a website is a chance to think about what I actually want it to do. I began this project on WordPress, which gave me a way to get a site online without building every part myself. As the site developed, though, I wanted it to work more clearly as a portfolio: a place to introduce myself, show my work, and make it easy for people to find the different parts of my online presence."] },
       { heading: "Moving beyond WordPress", paragraphs: ["WordPress can be a useful starting point, but building a portfolio around it often meant relying on plugins for layouts and features I wanted. Managing those tools and the newer in-web editor gradually became more complicated than I needed.", "Moving to traditional HTML and CSS gave me a clearer view of how each page is put together. I could shape the layout directly, keep the pages lightweight, and make the site reflect my work more closely."] },
-      { heading: "Building with purpose", paragraphs: ["This new site brings together my writing, media projects, liturgical service, and personal interests. It is still a work in progress, and I will keep refining it as I learn. For now, it feels like a more direct and personal place to begin again."] }
+      { heading: "Building with purpose", paragraphs: ["This new site was built using TypeScript, and Next.js to bring together my writing, media projects, liturgical service, and personal interests. It is still a work in progress, and I will keep refining it as I learn. For now, it feels like a more direct and personal place to begin again."] }
     ]
   }
 ];
