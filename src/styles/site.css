@@ -163,3 +163,13 @@ main{animation:page-fade-in .7s ease both}.fade-section{opacity:0;transform:tran
 @media(max-width:850px){.resume-hero{grid-template-columns:minmax(0,1fr);gap:2rem}.resume-hero-portrait{width:min(88%,30rem);justify-self:start}}
 @media(max-width:640px){.resume-page{padding-bottom:4rem}.resume-hero{min-height:calc(100svh - 4.25rem);padding-block:4rem}.resume-hero .subpage-title{font-size:clamp(3.2rem,13vw,5rem)}.resume-hero-intro{font-size:.98rem}.resume-hero-portrait{width:min(90%,26rem);justify-self:center}.resume-content-layout{width:calc(100% - 2rem);padding-top:1.25rem}.resume-sidebar{top:4.25rem;display:block;margin-inline:-1rem;padding:.55rem 1rem}.resume-sidebar>.eyebrow{margin-bottom:.3rem;font-size:.55rem}.resume-sidebar nav a{font-size:.73rem}.resume-sections .resume-block>.resume-entry,.resume-sections .resume-block>.language-pills,.resume-sections .resume-block>.skill-pills{grid-column:1}}
 @media(prefers-reduced-motion:reduce){.resume-scroll-cue,.resume-scroll-cue span,.resume-sidebar nav a,.resume-sidebar nav a::before{transition:none}}
+
+@media(max-width:640px){
+  .home-hero,.zh-home-hero{gap:1.75rem;padding:2.5rem 1.25rem 2.75rem}
+  .home-hero .hero-portrait,.zh-home-hero .hero-portrait{order:-1;justify-self:center;width:min(76vw,18rem);aspect-ratio:4/4.7;padding:.6rem .6rem 3rem;border:1px solid rgb(102 126 88 / 18%);border-radius:1rem;background:linear-gradient(145deg,#fffefa,#f1f2eb);box-shadow:0 16px 38px rgb(47 54 42 / 13%);transform:none}
+  .home-hero .hero-portrait::before,.zh-home-hero .hero-portrait::before{position:absolute;z-index:1;inset:.35rem;border:1px solid rgb(102 126 88 / 22%);border-radius:.72rem;content:"";pointer-events:none}
+  .home-hero .hero-portrait img,.zh-home-hero .hero-portrait img{border-radius:.58rem;object-position:center 23%}
+  .home-hero .portrait-caption,.zh-home-hero .portrait-caption{right:.75rem;bottom:.85rem;left:.75rem;text-align:center;font-size:.76rem}
+  .zh-home-hero h1{white-space:normal;font-size:clamp(1.45rem,6.2vw,2rem);line-height:1.4;letter-spacing:-.035em}
+  .zh-home-hero .zh-hero-intro{margin-top:1rem}
+}
