@@ -34,8 +34,6 @@ export function SiteFooter({ chinese = false }: { chinese?: boolean }) {
       <a className="english-footer-name" href="/">Copyright © {new Date().getFullYear()} Chavez Poon</a>
       <span>Ex umbris et imaginibus in veritatem.</span>
       <div className="english-footer-links">
-        <a href="https://www.youtube.com/@cyrillusmariae" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
-        <a href="https://poonlonghei.substack.com" target="_blank" rel="noopener noreferrer">Substack ↗</a>
         <a href="mailto:cyrillusmariae@outlook.com">Email ↗</a>
       </div>
     </footer>;
