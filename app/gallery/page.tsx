@@ -1,7 +1,7 @@
 import { readdirSync } from "node:fs";
 import path from "node:path";
-import Image from "next/image";
 import { PageShell } from "@/components/site";
+import { GalleryGrid } from "@/components/gallery-grid";
 
 export const metadata = { title: "Gallery" };
 
@@ -13,13 +13,6 @@ function getGalleryPhotos() {
     .filter((entry) => entry.isFile() && imageExtensions.has(path.extname(entry.name).toLowerCase()))
     .map((entry) => entry.name)
     .sort((first, second) => first.localeCompare(second, undefined, { numeric: true, sensitivity: "base" }));
-}
-
-function getPhotoLabel(filename: string) {
-  return path.basename(filename, path.extname(filename))
-    .replace(/[-_]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim() || "Photograph";
 }
 
 export default function GalleryPage() {
@@ -35,18 +28,7 @@ export default function GalleryPage() {
           <span>Selected photographs</span>
           <span>{String(photos.length).padStart(2, "0")} {photos.length === 1 ? "image" : "images"}</span>
         </div>
-        <div className="gallery-grid">
-          {photos.map((photo, index) => {
-            const label = getPhotoLabel(photo);
-            const imageUrl = `/assets/photos/gallery-photos/${encodeURIComponent(photo)}`;
-            const layout = ["feature", "tall", "regular", "wide", "portrait", "regular", "tall", "regular"][index % 8];
-
-            return <a className={`gallery-photo gallery-photo--${layout}`} href={imageUrl} target="_blank" rel="noopener noreferrer" aria-label={`Open ${label} in a new tab`} key={photo}>
-              <Image src={imageUrl} alt={label} fill sizes="(max-width: 540px) 100vw, (max-width: 900px) 50vw, 25vw" />
-              <span className="gallery-photo-caption">{label}</span>
-            </a>;
-          })}
-        </div>
+        <GalleryGrid photos={photos} />
       </> : <div className="empty-gallery">
         <span>No photographs yet</span>
         <p>Add image files to <code>public/assets/photos/gallery-photos</code> and they will appear here.</p>
