@@ -9,7 +9,7 @@ Choose a platform to deploy the site:
 | Platform | Deploy |
 | --- | --- |
 | GitHub Actions | [![Build and deploy website](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml) |
-| GitLab | [Import this repository to GitLab](https://gitlab.com/projects/new#import_project) |
+| GitLab | [![Import to GitLab](https://img.shields.io/badge/Import%20to-GitLab-fc6d26?logo=gitlab&logoColor=white)](https://gitlab.com/projects/new#import_project) |
 | Vercel | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpoonlonghei%2Fpoonlonghei.github.io) |
 | Netlify | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/poonlonghei/poonlonghei.github.io) |
 
