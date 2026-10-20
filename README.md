@@ -1,11 +1,11 @@
-# Chavez Poon — Personal Website
+# Chavez Poon's Personal Website
 
-The English and Traditional Chinese website is being rebuilt as a responsive **Next.js App Router** application using **TypeScript**, **Radix UI**, and CSS. The visual direction uses an editorial layout, generous spacing, warm paper colours, and clear typography, inspired by the welcoming structure of [Fr. Kenny Ang’s website](https://www.fatherkenny.com/) while using original content and styling.
+The English and Traditional Chinese website is being rebuilt as a responsive **Next.js App Router** application using **TypeScript**, **Radix UI**, and CSS.
 
 ## Routes
 
 - `/` — English homepage
-- `/zh-hk/` — Traditional Chinese (Hong Kong) homepage
+- `/zh-hk/` — Traditional Chinese (Hong Kong) homepage (For the source code for my Chinese Website: https://github.com/poonlonghei/zh-hk)
 - `/resume/` — biography and CV
 - `/portfolio/` — selected media projects
 - `/gallery/` — photo gallery placeholder
