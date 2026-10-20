@@ -10,6 +10,8 @@ const digitalSkills = [
   "JavaScript",
   "TypeScript",
   "Bootstrap",
+  "Next.js",
+  "Tailwind.CSS",
   "WordPress",
 ];
 
