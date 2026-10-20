@@ -8,11 +8,11 @@ export default function BiographyPage() {
       <p className="eyebrow">About Chavez</p>
       <h1 className="subpage-title">A life of faith,<br /><em>story, and service.</em></h1>
       <article className="biography-copy">
-        <p>Chavez L. H. Poon is a Roman Catholic independent freelance writer and social media content creator, born and raised in Hong Kong and currently based in Walsingham, Norfolk, United Kingdom.</p>
-        <p>His content creation work focuses particularly on the Sacred Liturgy, the historic traditions of the Roman Catholic Church, ecclesiastical history, and contemporary Roman Catholic affairs.</p>
-        <p>Chavez currently works with EWTN Great Britain as a Production Assistant, assisting with the filming, interviewing, and media coverage of Catholic events across the United Kingdom. He also participated in the EWTN Summer Academy 2026 in Rome, where he further developed his interest in Catholic journalism, digital evangelisation, and media communications.</p>
-        <p>Alongside his writing, media, and content creation work, Chavez has more than ten years of ceremonial and liturgical experience, having served as an Acolyte, Sacristan, and Liturgical Master of Ceremonies at Holy Mass and other sacred liturgical celebrations in various parishes and ecclesiastical communities throughout Hong Kong, Macau, and the United Kingdom.</p>
-        <p>Through his writing, liturgical service, content creation, and social media apostolate, he seeks to foster a deeper appreciation of the beauty of the Church’s worship, the continuity of Roman Catholic tradition, and the faithful transmission of the message of the Holy Gospel. His work seeks, in a modest way, to contribute to the preservation, study, and communication of the Catholic Church’s liturgical and ecclesiastical heritage.</p>
+        <p>Chavez L. H. Poon is an independent Roman Catholic writer and social media content creator. Born and raised in Hong Kong, he is now based in Walsingham, Norfolk, in the United Kingdom.</p>
+        <p>His work centres on the Sacred Liturgy, the historic traditions of the Roman Catholic Church, ecclesiastical history, and contemporary Catholic life.</p>
+        <p>Chavez works as a Production Assistant with EWTN Great Britain, contributing to the filming, interviews, and media coverage of Catholic events across the United Kingdom. In 2026, he took part in the EWTN Summer Academy in Rome, further developing his interests in Catholic journalism, digital evangelisation, and media communications.</p>
+        <p>Alongside his work in writing and media, Chavez brings more than ten years of ceremonial and liturgical experience. He has served as an Acolyte, Sacristan, and Liturgical Master of Ceremonies at Holy Mass and other sacred celebrations in parishes and ecclesiastical communities across Hong Kong, Macau, and the United Kingdom.</p>
+        <p>Through his writing, liturgical service, content creation, and social media apostolate, Chavez hopes to foster a deeper appreciation of the beauty of the Church’s worship, the continuity of Roman Catholic tradition, and the faithful proclamation of the Holy Gospel. In a modest way, he aims to support the preservation, study, and communication of the Church’s liturgical and ecclesiastical heritage.</p>
       </article>
     </main>
   </PageShell>;
