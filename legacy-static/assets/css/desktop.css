@@ -1,0 +1,372 @@
+/* Wide-screen refinements. Breakpoints in the page stylesheets keep mobile layouts intact. */
+@media (min-width: 1024px) {
+  .site-footer {
+    padding: 1.15rem 2.25rem calc(1.15rem + env(safe-area-inset-bottom));
+    font-size: .78rem;
+  }
+
+  /* Homepage */
+  body[data-page="index.html"] .intro {
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding-inline: 3rem;
+  }
+
+  body[data-page="index.html"] .handle { font-size: 1rem; }
+  body[data-page="index.html"] h1 { font-size: clamp(2.4rem, 4.6vw, 4.5rem); }
+  body[data-page="index.html"] .description { margin-top: 1.8rem; font-size: clamp(1rem, 1.25vw, 1.15rem); }
+  body[data-page="index.html"] .social-links { gap: .75rem; margin-top: 3rem; }
+  body[data-page="index.html"] .social-links a { width: 3rem; height: 3rem; }
+
+  body[data-page="index.html"] .about,
+  body[data-page="index.html"] .portfolio,
+  body[data-page="index.html"] .gallery-preview,
+  body[data-page="index.html"] .blog-preview,
+  body[data-page="index.html"] .contact {
+    width: min(calc(100% - 8rem), 68rem);
+    padding: 4.5rem 0 6rem;
+  }
+
+  body[data-page="index.html"] .about-layout {
+    max-width: 66rem;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: clamp(2.5rem, 5vw, 5rem);
+    margin: 2rem auto 0;
+  }
+  body[data-page="index.html"] .about-portrait {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    margin: 0;
+    border-radius: 1.1rem;
+  }
+  body[data-page="index.html"] .about > h2,
+  body[data-page="index.html"] .portfolio > h2,
+  body[data-page="index.html"] .gallery-preview > h2,
+  body[data-page="index.html"] .blog-preview > h2,
+  body[data-page="index.html"] .contact > h2 { text-align: center; }
+  body[data-page="index.html"] .portfolio-intro,
+  body[data-page="index.html"] .gallery-preview-copy,
+  body[data-page="index.html"] .blog-preview-intro { margin-inline: auto; text-align: center; }
+  body[data-page="index.html"] .contact > p {
+    width: 100%;
+    max-width: 58rem;
+    margin: 1rem auto 0;
+    text-align: left;
+  }
+
+  body[data-page="index.html"] .about h2,
+  body[data-page="index.html"] .portfolio h2,
+  body[data-page="index.html"] .gallery-preview h2,
+  body[data-page="index.html"] .blog-preview h2,
+  body[data-page="index.html"] .contact h2 { font-size: 1.6rem; }
+  body[data-page="index.html"] .about p,
+  body[data-page="index.html"] .contact-message p,
+  body[data-page="index.html"] .portfolio-intro,
+  body[data-page="index.html"] .gallery-preview-copy,
+  body[data-page="index.html"] .blog-preview-intro,
+  body[data-page="index.html"] .contact > p {
+    max-width: 70ch;
+    font-size: 1.05rem;
+    line-height: 1.9;
+  }
+  body[data-page="index.html"] .portfolio-grid { gap: 1.25rem; margin-top: 2rem; }
+  body[data-page="index.html"] .portfolio-card { min-height: 12rem; padding: 1.5rem; }
+  body[data-page="index.html"] .portfolio-card h3 { font-size: 1.05rem; }
+  body[data-page="index.html"] .portfolio-card p { font-size: .92rem; }
+  body[data-page="index.html"] .latest-post-card { max-width: 48rem; margin-inline: auto; padding: 1.5rem; text-align: left; }
+  body[data-page="index.html"] .blog-card-title { font-size: clamp(1.7rem, 2vw, 2rem); }
+  body[data-page="index.html"] .contact-form { max-width: 58rem; gap: 1.2rem; margin: 2rem auto 0; text-align: left; }
+  body[data-page="index.html"] .contact-submit { justify-self: center; }
+  body[data-page="index.html"] .portfolio > .resume-link,
+  body[data-page="index.html"] .gallery-preview > .resume-link,
+  body[data-page="index.html"] .blog-preview > .resume-link { display: flex; width: max-content; margin-inline: auto; }
+  body[data-page="index.html"] .contact-field input,
+  body[data-page="index.html"] .contact-field textarea { padding: .95rem 1rem; font-size: .95rem; }
+  body[data-page="index.html"] .contact-field textarea { min-height: 11rem; }
+
+  /* Portfolio and blog listing */
+  .page-shell {
+    width: min(calc(100% - 7rem), 76rem);
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+  }
+
+  body[data-page="blog/index.html"] .page-shell > .topbar {
+    position: fixed;
+    top: 1.25rem;
+    right: auto;
+    left: 50%;
+    width: min(calc(100% - 7rem), 76rem);
+    align-items: center;
+    padding: .4rem .8rem;
+    border: 1px solid rgb(255 255 255 / 10%);
+    border-radius: .85rem;
+    background: rgb(0 0 0 / 68%);
+    box-shadow: 0 .5rem 2rem rgb(0 0 0 / 28%);
+    backdrop-filter: blur(16px);
+    transform: translateX(-50%);
+  }
+
+  .page-shell > header { width: min(100%, 56rem); }
+  .page-shell > header h1 { font-size: clamp(3.5rem, 6vw, 5.5rem); }
+  .page-shell > header .intro { max-width: 48rem; font-size: 1.15rem; }
+  .category-filters { gap: .7rem; margin-top: 2.5rem; }
+  .category-filter { min-height: 2.75rem; padding-inline: 1.15rem; font-size: .9rem; }
+  .work-grid { gap: 1.35rem; margin-top: 3.5rem; }
+  body[data-page="blog/index.html"] .archive-sidebar { margin-top: 3.5rem; }
+  .project-card { padding: 2rem; }
+  .project-card h2 { font-size: 1.45rem; }
+  .project-meta { gap: .6rem 1.8rem; font-size: .95rem; }
+  .project-category { padding: .45rem .75rem; font-size: .82rem; }
+  .video-frame { width: min(100%, 42rem); margin-top: 1.75rem; }
+  .note { max-width: 58rem; margin: 2.5rem auto 0; text-align: center; }
+
+  body[data-page="blog/index.html"] .work-card {
+    width: min(100%, 58rem);
+    padding: 2.25rem 2.6rem;
+  }
+
+  /* Individual post reading layout */
+  .post-back-nav { width: min(100%, 72rem); margin-inline: auto; }
+  .post-content {
+    width: min(100%, 72rem);
+    grid-template-columns: minmax(0, 1fr) 18rem;
+    gap: 3rem;
+    padding: 3.25rem 3.5rem;
+  }
+  .post-article-text { max-width: 72ch; font-size: 1.02rem; line-height: 1.95; }
+  .post-article-text > h2 { margin-top: 2.6rem; font-size: 1.45rem; }
+  .article-sidebar { top: 6rem; gap: 1rem; }
+  .article-toc, .article-share { padding: 1.25rem 1.35rem; }
+  .article-toc ol { gap: .65rem; font-size: .86rem; }
+
+  /* Resume */
+  .shell { width: min(calc(100% - 7rem), 74rem); padding: 2rem 0 8rem; }
+  .shell > .topbar { margin-bottom: 2.5rem; }
+  .shell > .topbar a { min-height: 2.75rem; padding-inline: 1rem; font-size: .9rem; }
+  .resume { padding: 4rem 4.5rem; border-radius: 1.1rem; }
+  .resume h1 { font-size: clamp(4rem, 6vw, 5.25rem); }
+  .resume-header { grid-template-columns: minmax(0, 1fr) minmax(13rem, 17rem); gap: clamp(2rem, 5vw, 4rem); }
+  .resume-portrait { width: 17rem; }
+  .headline { max-width: 60rem; font-size: 1.2rem; }
+  .contact { gap: .7rem; margin-top: .9rem; font-size: .88rem; }
+  .contact-item { min-height: 2.8rem; padding-inline: .9rem; }
+  .resume-section { margin-top: 3.25rem; padding-top: 1.8rem; }
+  .resume-section h2 { margin-bottom: 1.5rem; font-size: 1.2rem; }
+  .entry + .entry { margin-top: 2rem; }
+  .entry h3 { font-size: 1.08rem; }
+  .entry-meta { grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) max-content; font-size: .86rem; }
+  .entry p, .entry ul { max-width: 88ch; font-size: 1rem; line-height: 1.85; }
+  .skill-icons { gap: 1rem; }
+  .skill-item { width: 7rem; min-height: 7rem; }
+
+  /* Give wide screens a balanced project grid and consistent reading measure. */
+  body[data-page="portfolio.html"] .work-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  body[data-page="portfolio.html"] .project-card { min-height: 100%; }
+  body[data-page="portfolio.html"] .video-frame { width: 100%; }
+  body[data-page="portfolio.html"] .note { grid-column: 1 / -1; }
+
+  body[data-page="index.html"] .contact > p,
+  body[data-page="index.html"] .contact-form { width: min(100%, 58rem); }
+  body[data-page="index.html"] .contact > p { margin-inline: auto; }
+  body[data-page="index.html"] .contact-form { margin-inline: auto; }
+
+  body[data-page="resume.html"] .shell { padding-top: 2.5rem; }
+  body[data-page="resume.html"] .resume { background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none; }
+}
+
+/* Tablet layouts bridge the compact and wide-screen designs. */
+@media (min-width: 761px) and (max-width: 1023px) {
+  body[data-page="index.html"] .about,
+  body[data-page="index.html"] .portfolio,
+  body[data-page="index.html"] .gallery-preview,
+  body[data-page="index.html"] .blog-preview,
+  body[data-page="index.html"] .contact {
+    width: min(calc(100% - 4rem), 58rem);
+    padding-block: 3.5rem 4.5rem;
+  }
+
+  body[data-page="index.html"] .about-layout {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 0;
+  }
+
+  .page-shell { width: min(calc(100% - 4rem), 68rem); }
+  .shell { width: min(calc(100% - 4rem), 66rem); }
+  body[data-page="portfolio.html"] .work-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  body[data-page="portfolio.html"] .project-card { padding: 1.35rem; }
+  body[data-page="portfolio.html"] .video-frame { width: 100%; }
+  .post-content { grid-template-columns: minmax(0, 1fr) 14rem; gap: 1.5rem; }
+}
+
+@media (min-width: 761px) {
+  body[data-page="index.html"] .contact {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(2rem, 5vw, 4.5rem);
+    row-gap: 1.75rem;
+    align-items: start;
+  }
+
+  body[data-page="index.html"] .contact > h2 { grid-column: 1 / -1; text-align: center; }
+  body[data-page="index.html"] .contact-message {
+    grid-column: 1;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    text-align: left;
+  }
+  body[data-page="index.html"] .contact-form {
+    grid-column: 2;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1023px) {
+  body[data-page="index.html"] .contact-form-row { grid-template-columns: 1fr; }
+}
+
+/* Small-screen refinements apply consistently to every page. */
+@media (max-width: 760px) {
+  html, body { overflow-x: clip; }
+  .boot-screen { padding: max(.75rem, env(safe-area-inset-left)) max(.75rem, env(safe-area-inset-right)); }
+  .boot-console { width: min(100%, 42rem); }
+
+  .page-shell,
+  .shell {
+    width: min(100% - 2rem, 42rem);
+  }
+
+  .page-shell > header { width: 100%; }
+  .page-shell > header h1 { font-size: clamp(2.65rem, 11vw, 4.4rem); line-height: 1.02; }
+  .page-shell > header .intro { font-size: 1rem; line-height: 1.7; }
+  .category-filters { gap: .5rem; margin-top: 1.5rem; }
+  .category-filter { min-height: 2.75rem; padding-inline: .85rem; }
+
+  .post-back-nav { width: 100%; margin-bottom: 1.25rem; }
+  .post-content { padding: clamp(1rem, 5vw, 1.5rem); }
+  .post-article-text { min-width: 0; font-size: .96rem; line-height: 1.8; }
+  .post-article-text img, .post-article-text iframe { max-width: 100%; }
+
+  .site-footer { padding-inline: 1rem; }
+  .footer-details, .site-clock { max-width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .page-shell,
+  .shell { width: min(100% - 1.5rem, 42rem); }
+  .page-shell { padding-top: 5rem; }
+  .shell { padding-top: .75rem; }
+  .page-shell > header h1 { font-size: clamp(2.4rem, 12vw, 3.5rem); }
+  .page-shell > header .intro { margin-top: .85rem; }
+  .category-filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .category-filter { width: 100%; padding-inline: .5rem; font-size: .78rem; }
+  body[data-page="portfolio.html"] .work-grid { margin-top: 1.5rem; }
+  body[data-page="portfolio.html"] .project-card { padding: 1rem; }
+  .project-meta { gap: .4rem .8rem; font-size: .82rem; }
+  .project-categories { gap: .4rem; }
+  .project-category { padding: .35rem .5rem; font-size: .72rem; }
+  .video-frame { margin-top: 1rem; }
+
+  .post-content { gap: 1rem; }
+  .article-toc, .article-share { padding: .85rem; }
+  .article-toc ol { padding-left: 1rem; font-size: .78rem; }
+
+  .site-footer { gap: .35rem; font-size: .68rem; }
+  .site-clock { white-space: normal; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-marquee-track { animation: none !important; }
+  .project-marquee { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+}
+
+/* Shared touch and narrow-screen safeguards for every page. */
+@media (max-width: 760px) {
+  :where(main, header, section, article, nav, footer, .page-shell, .shell) { min-width: 0; }
+  :where(h1, h2, h3, p, a, button, time, .intro, .headline, .entry-meta, .project-meta) {
+    overflow-wrap: anywhere;
+  }
+
+  .boot-console { width: min(100%, 42rem); }
+  .boot-terminal-bar { min-width: 0; overflow-wrap: anywhere; }
+  .boot-output { width: 100%; }
+
+  .topbar a,
+  .work-link,
+  .category-filter,
+  .archive-trigger,
+  .archive-month,
+  .contact-submit,
+  .contact-item { min-height: 2.75rem; }
+
+  .archive-panel {
+    width: min(21rem, calc(100vw - 1.5rem));
+    max-height: min(70dvh, 32rem);
+    overscroll-behavior: contain;
+  }
+
+  .post-content,
+  .resume,
+  .project-card,
+  .work-card,
+  .latest-post-card { min-width: 0; }
+
+  .post-article-text { overflow-wrap: anywhere; }
+  .post-article-text pre,
+  .post-article-text table { max-width: 100%; overflow-x: auto; }
+}
+
+@media (min-width: 1440px) {
+  body[data-page="index.html"] .about,
+  body[data-page="index.html"] .portfolio,
+  body[data-page="index.html"] .gallery-preview,
+  body[data-page="index.html"] .blog-preview,
+  body[data-page="index.html"] .contact { width: min(calc(100% - 12rem), 72rem); }
+  .page-shell { width: min(calc(100% - 10rem), 82rem); }
+  body[data-page="blog/index.html"] .page-shell > .topbar { width: min(calc(100% - 10rem), 82rem); }
+  .shell { width: min(calc(100% - 10rem), 78rem); }
+}
+
+@media (max-width: 520px) {
+  body[data-page="index.html"] .description {
+    width: min(100%, 34rem);
+    font-size: clamp(.78rem, 3.6vw, .95rem);
+    line-height: 1.65;
+  }
+
+  body[data-page="index.html"] .description span { white-space: normal; }
+  body[data-page="index.html"] #page-title {
+    white-space: nowrap;
+    font-size: clamp(.95rem, 5.3vw, 1.8rem);
+    line-height: 1.2;
+    letter-spacing: -.05em;
+  }
+
+  .page-shell > header h1 { overflow-wrap: anywhere; }
+  .project-meta,
+  .project-categories,
+  .contact,
+  .share-buttons { min-width: 0; }
+  .project-categories { flex-wrap: wrap; }
+  .project-category { overflow-wrap: anywhere; }
+}
+
+@media (max-width: 360px) {
+  .page-shell,
+  .shell { width: calc(100% - 1.25rem); }
+  .category-filter { font-size: .72rem; }
+  .site-footer { padding-inline: .75rem; }
+  .archive-trigger { gap: .35rem; padding-inline: .4rem; }
+  .archive-panel { right: -.25rem; }
+}
+

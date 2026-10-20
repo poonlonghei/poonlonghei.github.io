@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="booting">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg?v=8">
+  <meta name="description" content="A photographic gallery by Chavez Poon.">
+  <title>Gallery | Chavez Poon</title>
+  <link rel="stylesheet" href="./assets/css/portfolio.css">
+  <link rel="stylesheet" href="./assets/css/gallery.css">
+  <link rel="stylesheet" href="./assets/css/desktop.css">
+  <link rel="stylesheet" href="./assets/css/language-nav.css">
+</head>
+<body data-page="gallery.html">
+  <canvas class="particle-field" id="particles" aria-hidden="true"></canvas>
+  <div class="boot-screen" aria-hidden="true">
+    <div class="boot-console">
+      <div class="boot-terminal-bar" aria-hidden="true"><span class="boot-terminal-mark">●</span> tty1 — www.chavezpoon.com / gallery</div>
+      <div class="boot-output">
+        <p class="boot-kicker">[  OK  ] GNU/LINUX :: WWW.CHAVEZPOON.COM :: GALLERY</p>
+        <div id="boot-log"></div>
+        <p class="boot-ready" id="boot-ready">Gallery ready. Welcome.<span class="boot-cursor"></span></p>
+      </div>
+    </div>
+  </div>
+  <main class="page-shell gallery-shell">
+    <nav class="topbar" aria-label="Page navigation">
+      <a href="index.html">← Main page</a>
+    </nav>
+    <header>
+      <p class="eyebrow">Photographs</p>
+      <h1>Gallery</h1>
+      <p class="intro">A collection of photographs from events, places, and moments along the way.</p>
+    </header>
+    <section class="gallery-grid" aria-label="Photo gallery" aria-live="polite">
+      <div class="gallery-empty">
+        <span class="gallery-empty-mark" aria-hidden="true">✳</span>
+        <h2>Gallery coming soon</h2>
+        <p>Photographs will appear here. The gallery images will be stored in <code>assets/photos/gallery/</code>.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-details"><p>Copyright © <span data-copyright-year></span> Chavez Poon.</p></div>
+    <p class="site-clock"><span class="clock-label">LOCAL TIME</span><time data-local-clock>--:--:--</time></p>
+  </footer>
+  <script src="./assets/js/client-detection.js?v=2"></script>
+  <script defer src="./assets/js/language-nav.js"></script>
+  <script src="./assets/js/boot-terminal-sizing.js"></script>
+  <script defer src="./assets/js/site-clock.js"></script>
+  <script defer src="./assets/js/boot-screen.js"></script>
+  <script defer src="./assets/js/gallery-background.js"></script>
+</body>
+</html>
