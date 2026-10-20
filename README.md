@@ -1,28 +1,6 @@
 # Chavez Poon's Personal Website
 
-The English and Traditional Chinese website is being rebuilt as a responsive **Next.js App Router** application using **TypeScript**, **Radix UI**, and CSS.
-
-## Routes
-
-- `/` — English homepage
-- `/zh-hk/` — Traditional Chinese (Hong Kong) homepage (For the source code for my Chinese Website: https://github.com/poonlonghei/zh-hk)
-- `/resume/` — biography and CV
-- `/portfolio/` — selected media projects
-- `/gallery/` — photo gallery placeholder
-- `/blog/` — writing archive
-- `/blog/posts/<slug>/` — individual articles
-
-## Project layout
-
-- `app/` — route pages and shared document layout
-- `src/components/` — shared navigation, footer, language selector, and contact form
-- `src/content.ts` — project, article, and language data
-- `src/styles/site.css` — shared responsive design system
-- `public/assets/` — public images, favicon, and static assets
-- `legacy-static/` — previous HTML website retained as an archive
-- `web-portfolio/` — separate Next.js web-design portfolio project; independent from this site
-
-The shared terminal welcome overlay is implemented as a React component in `src/components/boot-screen.tsx`. On a first desktop visit to the English homepage it offers the `y`/`n` prompt; mobile visitors start automatically. It also shows a brief device and browser summary.
+The English and Traditional Chinese website is being rebuilt as a responsive **Next.js App Router** application using **TypeScript**, **Radix UI**, and **CSS**.
 
 ## Run locally
 

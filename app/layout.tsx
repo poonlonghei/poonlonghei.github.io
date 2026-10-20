@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/site.css";
+import "@/styles/english.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.chavezpoon.com"),
