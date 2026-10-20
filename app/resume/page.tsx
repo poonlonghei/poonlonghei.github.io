@@ -17,7 +17,7 @@ type ResumeEntryProps = {
   title: string;
   organisation: string;
   period: string;
-  description: string | string[];
+  description?: string | string[];
 };
 
 function ResumeEntry({
@@ -39,9 +39,9 @@ function ResumeEntry({
             <li key={detail}>{detail}</li>
           ))}
         </ul>
-      ) : (
+      ) : description ? (
         <p>{description}</p>
-      )}
+      ) : null}
     </div>
   );
 }
@@ -107,6 +107,7 @@ export default function ResumePage() {
               <a href="#formation">Professional formation</a>
               <a href="#languages">Languages</a>
               <a href="#skills">Technological skills</a>
+              <a href="#sacraments">Ecclesiastical Sacraments</a>
             </nav>
           </aside>
 
@@ -182,6 +183,26 @@ export default function ResumePage() {
                   <span key={skill}>{skill}</span>
                 ))}
               </div>
+            </section>
+
+            <section className="resume-block" id="sacraments" aria-labelledby="resume-sacraments">
+              <p className="eyebrow" id="resume-sacraments">
+                06 · Ecclesiastical Sacraments
+              </p>
+              <ResumeEntry
+                title="Sacrament of Baptism"
+                organisation="Location: Holy Family Chapel, Kowloon, Hong Kong"
+                period="Date: 9 April 2012"
+              />
+              <ResumeEntry
+                title="Sacrament of Confirmation"
+                organisation="Location: Rosary Church, Kowloon, Hong Kong"
+                period="Date: 11 October 2014"
+                description={[
+                  "Celebrant: Bishop Michael Yeung Ming Cheung",
+                  "Confirmation Name: Cyril Mary (Cyrillus Mariae)",
+                ]}
+              />
             </section>
           </div>
         </div>
