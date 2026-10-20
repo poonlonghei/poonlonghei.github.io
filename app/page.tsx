@@ -60,7 +60,7 @@ export default function HomePage() {
         <a className="english-text-link english-all-work" href="/portfolio/">View all my works and projects <span>↗</span></a>
       </section>
 
-      <section className="english-writing" id="writing">
+      <section className="english-writing" id="blog">
         <div className="english-section-heading">
           <div><p className="english-eyebrow">// Notes &amp; reflections</p><h2>From the blog.</h2></div>
           <a className="english-text-link" href="/blog/">Browse all my blog articles <span>↗</span></a>
