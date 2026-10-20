@@ -727,11 +727,6 @@
   line-height: 1.9;
 }
 
-.english-content .biography-copy p:first-child {
-  color: #455d66;
-  font-size: 17px;
-}
-
 .english-content .media-projects {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
