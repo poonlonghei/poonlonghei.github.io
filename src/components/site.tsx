@@ -34,9 +34,8 @@ export function SiteFooter({ chinese = false }: { chinese?: boolean }) {
   if (!chinese) {
     return <footer className="english-footer">
       <a className="english-footer-name" href="/">Copyright © {new Date().getFullYear()} Chavez Poon</a>
-      <span>Ex umbris et imaginibus in veritatem.</span>
       <div className="english-footer-links">
-        <a href="mailto:cyrillusmariae@outlook.com">Email ↗</a>
+        <span>Ex umbris et imaginibus in veritatem.</span>
       </div>
     </footer>;
   }
