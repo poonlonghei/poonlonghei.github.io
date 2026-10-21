@@ -1,6 +1,6 @@
 # Chavez Poon's Personal Website
 
-A bilingual English and Traditional Chinese personal website built with **Next.js 16 App Router**, **React 19**, and **TypeScript**. The interface uses **Radix UI** for accessible dropdown components and responsive custom **CSS**. Next.js is configured for static export, so the production site is generated in `out/`.
+A simple personal website with portfolio and blog, built with **Next.js 16 App Router**, **React 19**, and **TypeScript**. The interface uses **Radix UI** for accessible dropdown components and responsive custom **CSS**. Next.js is configured for static export, so the production site is generated in `out/`.
 
 ## Deploy
 
