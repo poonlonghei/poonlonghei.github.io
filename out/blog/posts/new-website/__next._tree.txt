@@ -1,6 +1,6 @@
-:HL["/_next/static/chunks/2h88kno30x7kz.css","style"]
+:HL["/_next/static/chunks/3_r08s3r4olcw.css","style"]
 4:[["children",{"s":"__PAGE__","h":160}]]
 3:[["children",{"s":{"n":"slug","t":"d","k":"new-website","s":[]},"h":65632,"c":"$Q4"}]]
 2:[["children",{"s":"posts","h":131168,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":131168,"c":"$Q2"}]]
-0:{"b":"yxLtXBxHONfrpVOxXdL9F","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"BdyQ2-UdyRI7260K1TwQS","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
