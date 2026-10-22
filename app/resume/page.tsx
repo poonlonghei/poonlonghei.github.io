@@ -64,12 +64,12 @@ export default function ResumePage() {
               Born and raised in Hong Kong and now based in Walsingham, Norfolk, Chavez works across Catholic media, writing, content creation, and liturgical service. His work focuses on the Sacred Liturgy, the historic traditions of the Roman Catholic Church, ecclesiastical history, and contemporary Roman Catholic affairs.
             </p>
             <div className="resume-contact-links" aria-label="Contact details">
-              <a className="resume-contact-link" href="mailto:cyrillusmariae@outlook.com">
+              <a className="resume-contact-link" href="mailto:poonlhchavez@gmail.com">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <path d="m4 7 8 6 8-6" />
                 </svg>
-                <span>cyrillusmariae@outlook.com</span>
+                <span>poonlhchavez@gmail.com</span>
               </a>
               <a
                 className="resume-contact-link"

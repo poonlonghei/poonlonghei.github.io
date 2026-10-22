@@ -177,9 +177,9 @@ export default function HomePage() {
             </p>
             <a
               className="english-text-link"
-              href="mailto:cyrillusmariae@outlook.com"
+              href="mailto:poonlhchavez@gmail.com"
             >
-              cyrillusmariae@outlook.com <span>↗</span>
+              poonlhchavez@gmail.com <span>↗</span>
             </a>
             <div className="english-contact-socials" aria-label="Social media">
               <a

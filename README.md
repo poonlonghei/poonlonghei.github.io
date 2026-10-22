@@ -38,4 +38,4 @@ The generated site is written to `out/`.
 
 ## Contact form
 
-The contact form submits through FormSubmit to `cyrillusmariae@outlook.com`. FormSubmit requires a one-time email confirmation before it delivers submissions.
+The contact form submits through FormSubmit to `poonlhchavez@gmail.com`. FormSubmit requires a one-time email confirmation before it delivers submissions.

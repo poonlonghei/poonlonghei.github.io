@@ -1,5 +1,5 @@
 export function ContactForm({ chinese = false }: { chinese?: boolean }) {
-  return <form className="contact-form" action="https://formsubmit.co/cyrillusmariae@outlook.com" method="POST">
+  return <form className="contact-form" action="https://formsubmit.co/poonlhchavez@gmail.com" method="POST">
     <input type="hidden" name="_subject" value="Website enquiry from chavezpoon.com" />
     <input type="hidden" name="_template" value="table" />
     <div className="form-honey" aria-hidden="true"><label htmlFor="contact-company">Leave this empty</label><input id="contact-company" name="_honey" tabIndex={-1} autoComplete="off" /></div>
