@@ -7,6 +7,7 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  { id: "41st-london-rosary-crusade", title: "41st London Rosary Crusade", date: "17 October 2026", categories: ["Interviewing"], video: "o0TFAVrfSo8" },
   { id: "archbishop", title: "Interview with Archbishop Richard Moth", date: "11 September 2026", categories: ["Filming"], video: "XjamDTWriT0" },
   { id: "march-for-life", title: "March for Life 2026", date: "8 September 2026", categories: ["Filming"], video: "SLlPvdPkVio" },
   { id: "latin-mass-pilgrimage", title: "Latin Mass Society Pilgrimage to Walsingham", date: "2 September 2026", categories: ["Filming", "Interviewing", "Video editing"], video: "VzjaYNOHkhA" },
