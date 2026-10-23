@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageShell } from "@/components/site";
+import { MarkdownContent } from "@/components/markdown-content";
 import { posts } from "@/blog";
-import ReactMarkdown from "react-markdown";
 
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -60,28 +60,7 @@ export default async function PostPage({
                 key={section.heading}
               >
                 <h2>{section.heading}</h2>
-                <ReactMarkdown
-                  components={{
-                    a: ({ href, title, children }) => {
-                      const external =
-                        href?.startsWith("https://") ||
-                        href?.startsWith("http://");
-
-                      return (
-                        <a
-                          href={href}
-                          title={title}
-                          target={external ? "_blank" : undefined}
-                          rel={external ? "noreferrer" : undefined}
-                        >
-                          {children}
-                        </a>
-                      );
-                    },
-                  }}
-                >
-                  {section.content}
-                </ReactMarkdown>
+                <MarkdownContent content={section.content} />
               </section>
             ))}
           </article>

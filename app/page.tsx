@@ -1,26 +1,40 @@
 import Image from "next/image";
 import { ContactForm } from "@/components/contact-form";
 import { PageShell } from "@/components/site";
+import { MarkdownContent, MarkdownHeading } from "@/components/markdown-content";
 import { posts } from "@/blog";
 import { projects } from "@/content";
+import { loadMarkdownPage, type MarkdownSection } from "@/pages";
+
+const page = loadMarkdownPage("home");
+
+function getSection(title: string): MarkdownSection {
+  const section = page.sections.find((item) => item.title === title);
+  if (!section) {
+    throw new Error(`content/pages/home.md: missing "## ${title}" section.`);
+  }
+  return section;
+}
 
 export default function HomePage() {
   const latest = posts[0];
+  const intro = getSection("Hi, I’m Chavez.");
+  const motto = getSection("Motto");
+  const about = getSection("Faith, people & the stories between.");
+  const whatIDo = getSection("What I do");
+  const whatMovesMe = getSection("What moves me");
+  const work = getSection("Portfolio");
+  const writing = getSection("From the blog.");
+  const contactPrompt = getSection("Contact prompt");
+  const contact = getSection("Let’s make something meaningful.");
 
   return (
     <PageShell>
       <main className="english-home">
         <section className="english-intro" aria-labelledby="intro-title">
           <div>
-            <p className="english-eyebrow">
-              Writer · Content Creator · Liturgical and Ceremonial Services
-            </p>
-            <h1 id="intro-title">Hi, I’m Chavez.</h1>
-            <p className="english-lede">
-              I’m a freelance writer and social media content creator based in
-              Walsingham, England, drawn to the stories, people, and traditions
-              of the Catholic Church.
-            </p>
+            <MarkdownHeading content={intro.title} className="english-intro-title" id="intro-title" />
+            <MarkdownContent content={intro.content} className="english-intro-copy" />
             <div className="english-actions">
               <a className="english-button" href="#work">
                 Explore my work <span>↘</span>
@@ -32,25 +46,17 @@ export default function HomePage() {
           </div>
           <div className="english-intro-note">
             <div className="english-availability">
-              Ex umbris et imaginibus in veritatem.
+              <MarkdownContent content={motto.content.split("\n\n")[0]} className="english-motto-availability" />
             </div>
-            <p>Dixi, et salvavi animam meam!</p>
+              <MarkdownContent content={motto.content.split("\n\n").slice(1).join("\n\n")} className="english-intro-motto" />
           </div>
         </section>
 
         <section className="english-about" id="about">
           <div className="english-about-copy">
             <p className="english-eyebrow">// A little about me</p>
-            <h2>
-              Faith, people
-              <br />
-              &amp; the stories between.
-            </h2>
-            <p>
-              Born and raised in Hong Kong, now at home in Walsingham, United
-              Kingdom. My work lives where Catholic life, careful storytelling,
-              and thoughtful communication meet.
-            </p>
+            <MarkdownHeading content={about.title} level={2} />
+            <MarkdownContent content={about.content} />
             <div className="english-about-actions">
               <a
                 className="english-button english-button-outline"
@@ -68,18 +74,15 @@ export default function HomePage() {
           </div>
           <div className="english-about-detail">
             <p className="english-eyebrow">
-              // What I do <span>01</span>
+              // {whatIDo.title} <span>01</span>
             </p>
-            <p>Writing, interviews, filming, video editing, and digital content.</p>
+            <MarkdownContent content={whatIDo.content} />
           </div>
           <div className="english-about-detail">
             <p className="english-eyebrow">
-              // What moves me <span>02</span>
+              // {whatMovesMe.title} <span>02</span>
             </p>
-            <p>
-              The Sacred Liturgy, the history of the Church, and the people
-              keeping its traditions alive.
-            </p>
+            <MarkdownContent content={whatMovesMe.content} />
           </div>
           <div className="english-about-photo">
             <Image
@@ -95,12 +98,9 @@ export default function HomePage() {
           <div className="english-section-heading">
             <div>
               <p className="english-eyebrow">// Selected work</p>
-              <h2>Portfolio</h2>
+              <MarkdownHeading content={work.title} level={2} />
             </div>
-            <p>
-              A selection of my works on interviews and films from Catholic
-              events and communities.
-            </p>
+            <MarkdownContent content={work.content} className="english-section-copy" />
           </div>
           <div className="english-project-grid">
             {projects.slice(0, 4).map((project, index) => (
@@ -139,8 +139,8 @@ export default function HomePage() {
         <section className="english-writing" id="blog">
           <div className="english-section-heading">
             <div>
-              <p className="english-eyebrow">// Notes &amp; reflections</p>
-              <h2>From the blog.</h2>
+              <p className="english-eyebrow">// {writing.content}</p>
+              <MarkdownHeading content={writing.title} level={2} />
             </div>
             <a className="english-text-link" href="/blog/">
               Browse all my blog articles <span>↗</span>
@@ -166,16 +166,9 @@ export default function HomePage() {
 
         <section className="english-contact" id="contact">
           <div className="english-contact-copy">
-            <p className="english-eyebrow">// Have a story in mind?</p>
-            <h2>
-              Let’s make
-              <br />
-              something meaningful.
-            </h2>
-            <p>
-              For writing, Catholic journalism, digital content, and
-              documentary work, I’d be glad to hear from you.
-            </p>
+            <p className="english-eyebrow">// {contactPrompt.content}</p>
+            <MarkdownHeading content={contact.title} level={2} />
+            <MarkdownContent content={contact.content} className="english-contact-prose" />
             <a
               className="english-text-link"
               href="mailto:poonlhchavez@gmail.com"

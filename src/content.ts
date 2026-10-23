@@ -10,9 +10,10 @@ export type Project = {
   categories: string[];
   video: string;
   summary: string;
+  notes: string;
 };
 
-type ProjectMetadata = Omit<Project, "id">;
+type ProjectMetadata = Omit<Project, "id" | "notes">;
 
 function isProjectMetadata(value: unknown): value is ProjectMetadata {
   if (typeof value !== "object" || value === null) {
@@ -50,6 +51,7 @@ function loadProject(fileName: string): Project {
     id: slug,
     ...parsed.data,
     categories: [...parsed.data.categories],
+    notes: parsed.content.trim(),
   };
 }
 

@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { PageShell } from "@/components/site";
 import { posts } from "@/blog";
+import { MarkdownContent, MarkdownHeading } from "@/components/markdown-content";
+import { loadMarkdownPage } from "@/pages";
 
-export const metadata = { title: "Writing & reflections" };
+const page = loadMarkdownPage("blog");
+
+export const metadata = { title: page.title, description: page.description };
 
 export default function BlogPage() {
+  const [intro] = page.sections;
   const archives = posts.reduce<
     { month: string; label: string; count: number; firstPostSlug: string }[]
   >((months, post) => {
@@ -31,13 +36,10 @@ export default function BlogPage() {
 
   return (
     <PageShell>
-      <main className="subpage page-width">
-        <p className="eyebrow">Writing &amp; reflections</p>
-        <h1 className="subpage-title">
-          Notes along
-          <br />
-          <em>the way.</em>
-        </h1>
+    <main className="subpage page-width">
+      <p className="eyebrow">Writing &amp; reflections</p>
+      <MarkdownHeading content={intro.title} className="subpage-title" />
+      <MarkdownContent content={intro.content} className="subpage-lede" />
 
         <div className="blog-content-layout">
           <div className="post-list">

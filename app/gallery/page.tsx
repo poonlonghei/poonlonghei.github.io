@@ -2,8 +2,12 @@ import { readdirSync } from "node:fs";
 import path from "node:path";
 import { PageShell } from "@/components/site";
 import { GalleryGrid } from "@/components/gallery-grid";
+import { MarkdownContent, MarkdownHeading } from "@/components/markdown-content";
+import { loadMarkdownPage } from "@/pages";
 
-export const metadata = { title: "Gallery" };
+const page = loadMarkdownPage("gallery");
+
+export const metadata = { title: page.title, description: page.description };
 
 const galleryDirectory = path.join(process.cwd(), "public", "assets", "photos", "gallery-photos");
 const imageExtensions = new Set([".avif", ".gif", ".jpeg", ".jpg", ".png", ".webp"]);
@@ -17,12 +21,13 @@ function getGalleryPhotos() {
 
 export default function GalleryPage() {
   const photos = getGalleryPhotos();
+  const [intro] = page.sections;
 
   return <PageShell>
     <main className="subpage page-width gallery-page">
       <p className="eyebrow">Photographs</p>
-      <h1 className="subpage-title">A collection<br /><em>of moments.</em></h1>
-      <p className="subpage-lede">A few moments, places, and people gathered along the way.</p>
+      <MarkdownHeading content={intro.title} className="subpage-title" />
+      <MarkdownContent content={intro.content} className="subpage-lede" />
       {photos.length > 0 ? <>
         <div className="gallery-heading">
           <span>Selected photographs</span>

@@ -175,6 +175,20 @@
   line-height: 1.8;
 }
 
+.english-intro-copy > p:first-child {
+  margin: 0;
+  color: #809097;
+  font: 11px/1.6 "DM Mono", monospace;
+}
+
+.english-intro-copy > p:nth-child(2) {
+  max-width: 500px;
+  margin: 12px 0 0;
+  color: #617179;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 .english-actions {
   display: flex;
   flex-wrap: wrap;
@@ -262,6 +276,10 @@
   font-size: 11px;
 }
 
+.english-motto-availability p {
+  margin: 0;
+}
+
 .english-availability span {
   width: 7px;
   height: 7px;
@@ -270,7 +288,7 @@
   box-shadow: 0 0 0 3px #e2efea;
 }
 
-.english-intro-note > p {
+.english-intro-note > .english-intro-motto p {
   margin: 28px 0 18px;
   color: #567782;
   font: italic 23px/1.45 Georgia, serif;
@@ -321,6 +339,14 @@
   line-height: 1.75;
 }
 
+.english-about-copy > div > p {
+  max-width: 295px;
+  margin: 0;
+  color: #6e7e84;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
 .english-about-detail {
   min-height: 265px;
   border-left: 1px solid var(--english-line);
@@ -336,6 +362,13 @@
 }
 
 .english-about-detail > p:last-child {
+  max-width: 220px;
+  margin: 0;
+  color: #52636a;
+  font: 14px/1.8 "DM Mono", monospace;
+}
+
+.english-about-detail > div > p {
   max-width: 220px;
   margin: 0;
   color: #52636a;
@@ -396,6 +429,22 @@
   color: #718087;
   font-size: 13px;
   line-height: 1.7;
+}
+
+.english-section-heading > .english-section-copy > p {
+  max-width: 285px;
+  margin: 0 0 3px;
+  color: #718087;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.english-contact-prose > p {
+  max-width: 420px;
+  margin: 0 0 18px;
+  color: #718087;
+  font-size: 13px;
+  line-height: 1.8;
 }
 
 .english-project-grid {
@@ -710,6 +759,10 @@
   line-height: 1.8;
 }
 
+.english-content .subpage-lede > p {
+  margin: 0;
+}
+
 .english-content .biography-page .subpage-title {
   margin-bottom: 28px;
 }
@@ -819,6 +872,21 @@
   color: #587e88;
   font-size: 13px;
   font-weight: 600;
+}
+
+.english-content .markdown-project-notes-copy h2 {
+  margin: 0;
+  color: #587e88;
+  font: 10px "DM Mono", monospace;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.english-content .markdown-project-notes-copy p {
+  margin: 0;
+  color: #60757c;
+  font-size: 13px;
+  line-height: 1.7;
 }
 
 .english-content .video-frame {
@@ -1346,6 +1414,42 @@
 .english-content .resume-entry > span,
 .english-content .resume-entry-details {
   color: #718087;
+}
+
+.english-content .resume-markdown-section h3 {
+  margin: 0 0 8px;
+  color: #3b525b;
+  font: 600 18px/1.35 "DM Sans", Arial, sans-serif;
+}
+
+.english-content .resume-markdown-section h3:not(:first-child) {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--english-line);
+}
+
+.english-content .resume-markdown-section p,
+.english-content .resume-markdown-section li {
+  color: #718087;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.english-content .resume-markdown-section p {
+  margin: 7px 0;
+}
+
+.english-content .resume-markdown-section ul {
+  margin: 8px 0 18px;
+  padding-left: 19px;
+}
+
+.english-content .resume-hero-intro p {
+  margin: 9px 0;
+}
+
+.english-content .resume-hero-intro a {
+  color: #587e88;
 }
 
 .english-content .language-pill,

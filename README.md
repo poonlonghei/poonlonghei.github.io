@@ -57,6 +57,10 @@ Write your paragraphs here. You can use **Markdown** formatting and [links](http
 
 Posts are ordered newest first using `isoDate`, so keep it in `YYYY-MM-DD` format. Every post must have at least one non-empty `##` section heading. Run `npm run build` to validate the post and static export before publishing.
 
+## Edit page content
+
+The home, biography, résumé, portfolio introduction, gallery introduction, and blog introduction are Markdown files in `content/pages/`. Each file uses `title` and `description` frontmatter followed by one or more `##` sections. Update the Markdown to change the copy while the TypeScript/Next.js pages continue to provide the layout, navigation, metadata, and interactive features. Portfolio entries are also Markdown files in `content/portfolio/`; their frontmatter supplies the video and listing details, and their Markdown body supplies the project notes.
+
 ### GitHub Pages
 
 The workflow in `.github/workflows/deploy.yml` builds the static export and publishes `out/` to GitHub Pages when changes are pushed to `main`. You can also run it manually from the repository's **Actions** tab. In **Settings → Pages**, set the publishing source to **GitHub Actions**.
