@@ -1,6 +1,6 @@
 ---
 title: "The relationship between Opus Dei and the London Oratory Fathers"
-subtitle: "A shared history in Britain"
+subtitle: "A shared history in Britain between Opus Dei and the Oratorians"
 date: "20 October 2026"
 isoDate: "2026-10-20"
 excerpt: "As I discern a possible vocation with the Oratorian Fathers or as a celibate layman in Opus Dei, I recently discovered a historical connection between the Brompton Oratory and Opus Dei’s earliest years in Britain."
@@ -8,11 +8,9 @@ excerpt: "As I discern a possible vocation with the Oratorian Fathers or as a ce
 
 ## Two paths under consideration
 
-Some of you might know that I am currently discerning my priestly vocation. If it is God’s will, I will probably join the Oratory of St Philip Neri at the Brompton Oratory located in South Kensington, London. However, if God wants me not to become a priest but instead to remain a celibate layman, I am considering joining Opus Dei as a Numerary Member.
+Some of you might know that I am currently discerning my priestly vocation. If it is God’s will, I will probably join the Oratory of St Philip Neri at the Brompton Oratory (aka London Oratory) located in South Kensington, London. However, if God wants me not to become a priest but instead to remain a celibate layman, I am considering joining Opus Dei as a Numerary Member.
 
-Interestingly, I recently came across an article on the Opus Dei UK website about the history of Opus Dei in Britain, and in particular its early relationship with the Brompton Oratory.
-
-Read the [history of Opus Dei in Britain](https://opusdei.org/en-uk/article/london-launch-of-opus-dei-a-history/).
+Interestingly, I recently came across an [article](https://opusdei.org/en-uk/article/london-launch-of-opus-dei-a-history/) on the Opus Dei UK website about the history of Opus Dei in Britain, and in particular its early relationship with the Fathers of the London Oratory.
 
 ## An early connection in London
 
