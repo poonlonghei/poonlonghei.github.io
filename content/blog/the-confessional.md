@@ -3,7 +3,6 @@ title: "The true meaning of the confessional"
 subtitle: "A reflection on the confessional and the sacrament of penance"
 date: "23 October 2026"
 isoDate: "2026-10-23"
-readingTime: "5 min read"
 excerpt: "The confessional is a place to encounter the mercy and love of God, seek forgiveness, and receive the grace to grow in holiness."
 ---
 
