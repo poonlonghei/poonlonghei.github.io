@@ -4,7 +4,7 @@ date: "7 June 2026"
 isoDate: "2026-06-07"
 categories:
   - Filming
-video: "8XYn-33OaGo&t=16s"
+video: "[8XYn-33OaGo&t=16s](https://www.youtube.com/watch?v=8XYn-33OaGo&t=16s)"
 summary: "A live, prayerful documentation of a major public act of witness, shaped around the voices and atmosphere of the procession."
 ---
 
