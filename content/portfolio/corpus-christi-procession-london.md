@@ -1,7 +1,7 @@
 ---
 title: "Corpus Christi Procession in Central London"
 date: "7 June 2026"
-isoDate: "2026-6-7"
+isoDate: "2026-06-07"
 categories:
   - Filming
 video: "8XYn-33OaGo&t=16s"
