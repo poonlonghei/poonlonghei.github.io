@@ -786,12 +786,69 @@
 }
 
 .english-content .post-list {
-  max-width: 900px;
-  margin-top: 38px;
+  min-width: 0;
   border-top: 1px solid var(--english-line);
 }
 
+.english-content .blog-content-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  align-items: start;
+  gap: clamp(32px, 5vw, 64px);
+  margin-top: 38px;
+}
+
+.english-content .blog-archive {
+  position: sticky;
+  top: 100px;
+  display: grid;
+  gap: 14px;
+  padding: 16px 0 16px 20px;
+  border-left: 1px solid var(--english-line);
+}
+
+.english-content .blog-archive > .eyebrow {
+  color: #809097;
+  font: 10px "DM Mono", monospace;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.english-content .blog-archive nav {
+  display: grid;
+  gap: 4px;
+}
+
+.english-content .blog-archive nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 10px;
+  border-radius: 4px;
+  color: #63737a;
+  font-size: 12px;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.english-content .blog-archive nav a:hover {
+  background: var(--english-paper);
+  color: #457986;
+}
+
+.english-content .blog-archive-count {
+  display: inline-grid;
+  min-width: 23px;
+  height: 23px;
+  place-items: center;
+  border: 1px solid var(--english-line);
+  border-radius: 50%;
+  color: #809097;
+  font: 10px "DM Mono", monospace;
+}
+
 .english-content .post-list-item {
+  scroll-margin-top: 100px;
   padding: 25px 0;
   border-bottom: 1px solid var(--english-line);
 }
@@ -831,6 +888,32 @@
 
 .english-content .post-list-item .text-action {
   color: #587e88;
+}
+
+@media (max-width: 850px) {
+  .english-content .blog-content-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .english-content .blog-archive {
+    position: static;
+    grid-row: 1;
+    padding: 0 0 14px;
+    border-bottom: 1px solid var(--english-line);
+    border-left: 0;
+  }
+
+  .english-content .blog-archive nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .english-content .blog-archive nav a {
+    border: 1px solid var(--english-line);
+    background: var(--english-paper);
+  }
 }
 
 .english-content .empty-gallery {
