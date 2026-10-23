@@ -3,7 +3,6 @@ title: "New Website"
 subtitle: "Time to start again"
 date: "19 October 2026"
 isoDate: "2026-10-19"
-readingTime: "4 min read"
 excerpt: "Starting again with a website is a chance to think about what I actually want it to do. I began this project on WordPress, then moved toward a portfolio that brings my work and interests together."
 ---
 

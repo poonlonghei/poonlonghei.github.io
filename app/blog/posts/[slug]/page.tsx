@@ -43,7 +43,7 @@ export default async function PostPage({
 
         <header className="article-header">
           <p className="eyebrow">
-            {post.date} · {post.readingTime}
+            {post.date}
           </p>
           <h1>{post.title}</h1>
           <p className="article-subtitle">{post.subtitle}</p>

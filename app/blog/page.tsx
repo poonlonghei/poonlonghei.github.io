@@ -48,7 +48,7 @@ export default function BlogPage() {
                 key={post.slug}
               >
                 <p className="eyebrow">
-                  {post.date} · {post.readingTime}
+                  {post.date}
                 </p>
                 <h2>
                   <Link href={`/blog/posts/${post.slug}/`}>{post.title}</Link>

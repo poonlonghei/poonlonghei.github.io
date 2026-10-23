@@ -1,6 +1,6 @@
 # Chavez Poon's Personal Website
 
-A simple personal website with portfolio and blog, built with **Next.js 16 App Router**, **React 19**, and **TypeScript**. The interface uses **Radix UI** for accessible dropdown components and responsive custom **CSS**. Next.js is configured for static export, so the production site is generated in `out/`.
+A personal portfolio and blog built with **Next.js 16**, **React 19**, and **TypeScript**. It uses the Next.js App Router, Radix UI dropdowns, and custom responsive CSS. The site is configured for static export; a production build writes the deployable site to `out/`.
 
 ## Deploy
 
@@ -13,32 +13,33 @@ Choose a platform to deploy the site:
 | Vercel | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpoonlonghei%2Fpoonlonghei.github.io) |
 | Netlify | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/poonlonghei/poonlonghei.github.io) |
 
-### GitHub Actions
 
-The workflow in `.github/workflows/deploy.yml` builds the static export and publishes `out/` to GitHub Pages when changes are pushed to `main`. You can also start it manually from the repository's **Actions** tab. In **Settings → Pages**, set the publishing source to **GitHub Actions**. The `public/CNAME` file is used for the `www.chavezpoon.com` custom domain.
+## Get started
 
-The GitLab button imports the GitHub repository into GitLab; GitLab CI/CD deployment must be configured in the imported project. Vercel and Netlify buttons connect their respective services to this GitHub repository. Configure a custom domain in the selected provider if you want to use `www.chavezpoon.com` there.
-
-## Run locally
-
-Install **Node.js 22 or later**, then run these commands from the project directory:
+Use **Node.js 22 or later**. From the project directory, install dependencies and start the development server:
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open <http://localhost:3000>. To create the production static site locally, run:
+Open <http://localhost:3000>.
+
+To create a production build, or check that the site exports successfully:
 
 ```sh
 npm run build
 ```
 
-The generated site is written to `out/`.
+The generated static site is written to `out/`. To check TypeScript types without building:
 
-## Write a blog post
+```sh
+npm run typecheck
+```
 
-Create a Markdown file in `content/blog/`, using a lowercase, hyphen-separated filename as the post URL slug (for example, `my-new-post.md`). Add the post details at the top, then write the article with a `##` heading for each section:
+## Add a blog post
+
+Create a Markdown file in `content/blog/`. Use a lowercase, hyphen-separated filename; it becomes the post's URL slug (for example, `my-new-post.md`). Add all of the required frontmatter fields, then write the post content under one or more `##` headings:
 
 ```md
 ---
@@ -46,7 +47,6 @@ title: "My new post"
 subtitle: "A short subtitle"
 date: "23 October 2026"
 isoDate: "2026-10-23"
-readingTime: "2 min read"
 excerpt: "A short summary shown in the blog list."
 ---
 
@@ -55,8 +55,25 @@ excerpt: "A short summary shown in the blog list."
 Write your paragraphs here. You can use **Markdown** formatting and [links](https://example.com).
 ```
 
-The filename becomes the post URL, and posts are listed newest first by `isoDate`. Run `npm run build` to check the site, then commit and deploy the Markdown file along with any other changes.
+Posts are ordered newest first using `isoDate`, so keep it in `YYYY-MM-DD` format. Every post must have at least one non-empty `##` section heading. Run `npm run build` to validate the post and static export before publishing.
+
+## Deploy
+
+The site can be hosted by GitHub Pages, Vercel, or Netlify. The buttons below can connect or import this repository; each provider may need its own deployment configuration.
+
+| Platform | Set up deployment |
+| --- | --- |
+| GitHub Actions | [![Build and deploy website](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml) |
+| GitLab | [![Import to GitLab](https://img.shields.io/badge/Import%20to-GitLab-fc6d26?logo=gitlab&logoColor=white)](https://gitlab.com/projects/new#import_project) |
+| Vercel | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpoonlonghei%2Fpoonlonghei.github.io) |
+| Netlify | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/poonlonghei/poonlonghei.github.io) |
+
+### GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds the static export and publishes `out/` to GitHub Pages when changes are pushed to `main`. You can also run it manually from the repository's **Actions** tab. In **Settings → Pages**, set the publishing source to **GitHub Actions**.
+
+The `public/CNAME` file configures the `www.chavezpoon.com` custom domain for GitHub Pages. For Vercel or Netlify, configure the custom domain in that provider's project settings. The GitLab button imports the repository; configure GitLab CI/CD separately if you want to deploy from GitLab.
 
 ## Contact form
 
-The contact form submits through FormSubmit to `poonlhchavez@gmail.com`. FormSubmit requires a one-time email confirmation before it delivers submissions.
+The contact form submits to FormSubmit at `poonlhchavez@gmail.com`. FormSubmit requires a one-time email confirmation before it delivers the first submission.

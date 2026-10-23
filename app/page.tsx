@@ -150,7 +150,7 @@ export default function HomePage() {
             <div>
               <span className="english-eyebrow">Latest article</span>
               <p>
-                {latest.date} · {latest.readingTime}
+                {latest.date}
               </p>
             </div>
             <div>

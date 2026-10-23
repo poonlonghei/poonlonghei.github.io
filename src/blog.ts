@@ -8,7 +8,6 @@ export type BlogPost = {
   subtitle: string;
   date: string;
   isoDate: string;
-  readingTime: string;
   excerpt: string;
   sections: { heading: string; content: string }[];
 };
@@ -20,7 +19,7 @@ function isBlogPostMetadata(value: unknown): value is BlogPostMetadata {
     return false;
   }
 
-  return ["title", "subtitle", "date", "isoDate", "readingTime", "excerpt"].every(
+  return ["title", "subtitle", "date", "isoDate", "excerpt"].every(
     (field) => typeof Reflect.get(value, field) === "string",
   );
 }
