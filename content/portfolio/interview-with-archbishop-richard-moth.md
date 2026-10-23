@@ -5,7 +5,7 @@ isoDate: "2026-09-11"
 categories:
   - Filming
 video: "XjamDTWriT0"
-summary: "A focused conversation reflecting on the pastoral life of the Church, the importance of witness, and the role of faith in daily ministry."
+summary: "A focused conversation reflecting on the pastoral life of the Church, the Tridentine Mass, the importance of witness, and the role of faith in daily ministry."
 ---
 
 ## Project note
