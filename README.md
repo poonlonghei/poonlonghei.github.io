@@ -4,9 +4,9 @@ A personal portfolio and blog built with **Next.js 16**, **React 19**, and **Typ
 
 ## Deploy
 
-Choose a platform to deploy the site:
+The site can be hosted by GitHub Pages, Vercel, or Netlify. The buttons below can connect or import this repository; each provider may need its own deployment configuration.
 
-| Platform | Deploy |
+| Platform | Set up deployment |
 | --- | --- |
 | GitHub Actions | [![Build and deploy website](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml) |
 | GitLab | [![Import to GitLab](https://img.shields.io/badge/Import%20to-GitLab-fc6d26?logo=gitlab&logoColor=white)](https://gitlab.com/projects/new#import_project) |
@@ -56,17 +56,6 @@ Write your paragraphs here. You can use **Markdown** formatting and [links](http
 ```
 
 Posts are ordered newest first using `isoDate`, so keep it in `YYYY-MM-DD` format. Every post must have at least one non-empty `##` section heading. Run `npm run build` to validate the post and static export before publishing.
-
-## Deploy
-
-The site can be hosted by GitHub Pages, Vercel, or Netlify. The buttons below can connect or import this repository; each provider may need its own deployment configuration.
-
-| Platform | Set up deployment |
-| --- | --- |
-| GitHub Actions | [![Build and deploy website](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/poonlonghei/poonlonghei.github.io/actions/workflows/deploy.yml) |
-| GitLab | [![Import to GitLab](https://img.shields.io/badge/Import%20to-GitLab-fc6d26?logo=gitlab&logoColor=white)](https://gitlab.com/projects/new#import_project) |
-| Vercel | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpoonlonghei%2Fpoonlonghei.github.io) |
-| Netlify | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/poonlonghei/poonlonghei.github.io) |
 
 ### GitHub Pages
 
