@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { PageShell } from "@/components/site";
-import { posts } from "@/content";
+import { posts } from "@/blog";
 
 export const metadata = { title: "Writing & reflections" };
 

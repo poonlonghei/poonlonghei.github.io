@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PageShell } from "@/components/site";
-import { posts } from "@/content";
+import { posts } from "@/blog";
+import ReactMarkdown from "react-markdown";
 
 export function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
@@ -59,23 +60,28 @@ export default async function PostPage({
                 key={section.heading}
               >
                 <h2>{section.heading}</h2>
-                {section.paragraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
-                ))}
-                {post.slug === "opus-dei-and-london-oratory" &&
-                  section.heading === "Two paths under consideration" && (
-                    <p>
-                      Read the{" "}
-                      <a
-                        href="https://opusdei.org/en-uk/article/london-launch-of-opus-dei-a-history/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        history of Opus Dei in Britain
-                      </a>
-                      .
-                    </p>
-                  )}
+                <ReactMarkdown
+                  components={{
+                    a: ({ href, title, children }) => {
+                      const external =
+                        href?.startsWith("https://") ||
+                        href?.startsWith("http://");
+
+                      return (
+                        <a
+                          href={href}
+                          title={title}
+                          target={external ? "_blank" : undefined}
+                          rel={external ? "noreferrer" : undefined}
+                        >
+                          {children}
+                        </a>
+                      );
+                    },
+                  }}
+                >
+                  {section.content}
+                </ReactMarkdown>
               </section>
             ))}
           </article>

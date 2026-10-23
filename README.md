@@ -36,6 +36,27 @@ npm run build
 
 The generated site is written to `out/`.
 
+## Write a blog post
+
+Create a Markdown file in `content/blog/`, using a lowercase, hyphen-separated filename as the post URL slug (for example, `my-new-post.md`). Add the post details at the top, then write the article with a `##` heading for each section:
+
+```md
+---
+title: "My new post"
+subtitle: "A short subtitle"
+date: "23 October 2026"
+isoDate: "2026-10-23"
+readingTime: "2 min read"
+excerpt: "A short summary shown in the blog list."
+---
+
+## First section
+
+Write your paragraphs here. You can use **Markdown** formatting and [links](https://example.com).
+```
+
+The filename becomes the post URL, and posts are listed newest first by `isoDate`. Run `npm run build` to check the site, then commit and deploy the Markdown file along with any other changes.
+
 ## Contact form
 
 The contact form submits through FormSubmit to `poonlhchavez@gmail.com`. FormSubmit requires a one-time email confirmation before it delivers submissions.

@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { ContactForm } from "@/components/contact-form";
 import { PageShell } from "@/components/site";
-import { posts, projects } from "@/content";
+import { posts } from "@/blog";
+import { projects } from "@/content";
 
 export default function HomePage() {
   const latest = posts[0];
