@@ -77,3 +77,4 @@ export default function BlogPage() {
                   aria-label={`${archive.label}: ${archive.count} ${
                     archive.count === 1 ? "post" : "posts"
                   }`}
+)
