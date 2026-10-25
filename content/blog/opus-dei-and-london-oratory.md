@@ -1,6 +1,6 @@
 ---
 title: "The relationship between Opus Dei and the London Oratory Fathers"
-subtitle: "A shared history in Britain between Opus Dei and the Oratorians"
+subtitle: "A shared history in Britain between Opus Dei and the Oratorians."
 date: "20 October 2026"
 isoDate: "2026-10-20"
 excerpt: "As I discern a possible vocation with the Oratorian Fathers or as a celibate layman in Opus Dei, I recently discovered a historical connection between the Brompton Oratory and Opus Dei’s earliest years in Britain."
