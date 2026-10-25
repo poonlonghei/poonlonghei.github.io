@@ -14,7 +14,7 @@ Each year, this feast invites the faithful to contemplate anew the supreme sover
 
 ## The Institution of the Feast by the Supreme Pontiff
 
-The Feast of Christ the King was formally instituted by Pope Pius XI through his encyclical Quas Primas, promulgated on December 11, 1925. It was originally assigned to the last Sunday of October each year.
+The Feast of Christ the King was formally instituted by Pope Pius XI through his encyclical *Quas Primas*, promulgated on 11th of December 1925. It was originally assigned to the last Sunday of October each year.
 
 At that time, the wounds inflicted by the First World War continued to affect Europe and the wider world. Secularism, atheism, and various totalitarian ideologies were gaining ground, while many nations and social institutions increasingly sought to exclude religious faith from public life. Pope Pius XI therefore established this feast to reaffirm before the world the kingship of Jesus Christ over individuals, families, societies, and nations.
 
