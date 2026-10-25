@@ -36,10 +36,10 @@ export default function BlogPage() {
 
   return (
     <PageShell>
-    <main className="subpage page-width">
-      <p className="eyebrow">Writing &amp; reflections</p>
-      <MarkdownHeading content={intro.title} className="subpage-title" />
-      <MarkdownContent content={intro.content} className="subpage-lede" />
+      <main className="subpage page-width">
+        <p className="eyebrow">Writing &amp; reflections</p>
+        <MarkdownHeading content={intro.title} className="subpage-title" />
+        <MarkdownContent content={intro.content} className="subpage-lede" />
 
         <div className="blog-content-layout">
           <div className="post-list">
@@ -77,4 +77,15 @@ export default function BlogPage() {
                   aria-label={`${archive.label}: ${archive.count} ${
                     archive.count === 1 ? "post" : "posts"
                   }`}
-)
+                >
+                  <span>{archive.label}</span>
+                  <span className="blog-archive-count">{archive.count}</span>
+                </a>
+              ))}
+            </nav>
+          </aside>
+        </div>
+      </main>
+    </PageShell>
+  );
+}
