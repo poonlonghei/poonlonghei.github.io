@@ -9,10 +9,11 @@ export type BlogPost = {
   date: string;
   isoDate: string;
   excerpt: string;
+  readingTime: number;
   sections: { heading: string; content: string }[];
 };
 
-type BlogPostMetadata = Omit<BlogPost, "slug" | "sections">;
+type BlogPostMetadata = Omit<BlogPost, "slug" | "sections" | "readingTime">;
 
 function isBlogPostMetadata(value: unknown): value is BlogPostMetadata {
   if (typeof value !== "object" || value === null) {
@@ -55,6 +56,20 @@ function parseSections(body: string, filePath: string): BlogPost["sections"] {
   return sections;
 }
 
+const WORDS_PER_MINUTE = 200;
+
+function getReadingTime(markdown: string): number {
+  const text = markdown
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`[^`]*`/g, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/[#>*_~-]/g, " ");
+
+  const words = text.split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.ceil(words / WORDS_PER_MINUTE));
+}
+
 function loadPost(fileName: string): BlogPost {
   const filePath = path.join(process.cwd(), "content", "blog", fileName);
   const slug = fileName.slice(0, -".md".length);
@@ -66,19 +81,4 @@ function loadPost(fileName: string): BlogPost {
   const parsed = matter(readFileSync(filePath, "utf8"));
 
   if (!isBlogPostMetadata(parsed.data)) {
-    throw new Error(`${filePath}: frontmatter must include all required post fields.`);
-  }
-
-  return {
-    slug,
-    ...parsed.data,
-    sections: parseSections(parsed.content, filePath),
-  };
-}
-
-const postsDirectory = path.join(process.cwd(), "content", "blog");
-
-export const posts = readdirSync(postsDirectory, { withFileTypes: true })
-  .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
-  .map((entry) => loadPost(entry.name))
-  .sort((a, b) => b.isoDate.localeCompare(a.isoDate));
+    throw new Error(`${filePath}:
