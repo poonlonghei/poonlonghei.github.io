@@ -64,7 +64,7 @@ In contemporary society, this teaching deserves renewed consideration. When mate
 
 Christians are called to be the salt of the earth and the light of the world—not by dominating others through arrogance or coercion, but by bearing witness to Christ's kingship through lives faithful to the Gospel, works of charity, and an unwavering commitment to the truth.
 
-From the Cross to Glory: The Kingship and Redemption of Christ
+## From the Cross to Glory: The Kingship and Redemption of Christ
 
 The profoundest mystery of the Feast of Christ the King lies in the inseparable relationship between the glory of the King and the suffering of the Cross.
 
@@ -74,7 +74,7 @@ In the Traditional Roman Liturgical Calendar, the Feast of Christ the King falls
 
 To acknowledge Christ as King is therefore more than a verbal profession of faith. It is a daily vocation: to repent of our sins, remain faithful to the commandments of God, fulfil our duties, and bear witness to the truth of the Gospel in our lives.
 
-The Liturgical Observance of Christ the King Since 1969
+## The Liturgical Observance of Christ the King Since 1969
 
 It is worth noting that the Feast of Christ the King underwent an important change in the Roman liturgical calendar following the Second Vatican Council.
 
