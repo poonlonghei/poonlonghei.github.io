@@ -50,7 +50,7 @@ export default function BlogPage() {
                 key={post.slug}
               >
                 <p className="eyebrow">
-                  {post.date}
+                  {post.date} · {post.readingTime} min read
                 </p>
                 <h2>
                   <Link href={`/blog/posts/${post.slug}/`}>{post.title}</Link>
@@ -77,15 +77,3 @@ export default function BlogPage() {
                   aria-label={`${archive.label}: ${archive.count} ${
                     archive.count === 1 ? "post" : "posts"
                   }`}
-                >
-                  <span>{archive.label}</span>
-                  <span className="blog-archive-count">{archive.count}</span>
-                </a>
-              ))}
-            </nav>
-          </aside>
-        </div>
-      </main>
-    </PageShell>
-  );
-}
