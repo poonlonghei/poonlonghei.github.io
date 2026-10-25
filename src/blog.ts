@@ -81,4 +81,20 @@ function loadPost(fileName: string): BlogPost {
   const parsed = matter(readFileSync(filePath, "utf8"));
 
   if (!isBlogPostMetadata(parsed.data)) {
-    throw new Error(`${filePath}:
+    throw new Error(`${filePath}: frontmatter must include all required post fields.`);
+  }
+
+  return {
+    slug,
+    ...parsed.data,
+    readingTime: getReadingTime(parsed.content),
+    sections: parseSections(parsed.content, filePath),
+  };
+}
+
+const postsDirectory = path.join(process.cwd(), "content", "blog");
+
+export const posts = readdirSync(postsDirectory, { withFileTypes: true })
+  .filter((entry) => entry.isFile() && entry.name.endsWith(".md"))
+  .map((entry) => loadPost(entry.name))
+  .sort((a, b) => b.isoDate.localeCompare(a.isoDate));
