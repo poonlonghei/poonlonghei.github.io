@@ -5,7 +5,7 @@ isoDate: "2026-06-07"
 categories:
   - Filming
 video: "8XYn-33OaGo"
-summary: "Carrying the Blessed Sacrament through the streets in Central London beneath the canopy, with a numbers of clergy, religious, families, and faithful united in prayer, hymns, and devotion."
+summary: "A day full of devotions to the Blessed Sacrament in the busy streets in Central London"
 ---
 
 ## Project note
