@@ -6,6 +6,8 @@ isoDate: "2026-10-25"
 excerpt: "Starting again with a website is a chance to think about what I actually want it to do. I began this project on WordPress, then moved toward a portfolio that brings my work and interests together."
 ---
 
+## Feast of Christ the King in Traditional Calendar
+
 Today is the Feast of Our Lord Jesus Christ the King in the Traditional Roman Calendar.
 
 In the traditional liturgical calendar of the Catholic Church, the Feast of Christ the King is a celebration of profound spiritual significance. It proclaims that Our Lord Jesus Christ is not only the Creator and Redeemer of heaven and earth, but also the King of all nations, peoples, and human society. His kingship is not founded upon worldly power, wealth, or military strength, but upon His divine nature, His witness to the truth, and the work of redemption accomplished for mankind upon the Cross.
