@@ -2,7 +2,7 @@
 title: "The Sign of Peace at Mass: Its Historical Development and Theological Significance"
 subtitle: "Tracing the historical development and theological meaning of the Sign of Peace in the Roman and Eastern Catholic liturgical traditions."
 date: "26 October 2026"
-isoDate: "2026-10-25"
+isoDate: "2026-10-26"
 excerpt: "From the ancient kiss of peace to the ceremonial traditions of the Roman Rite and the Syro-Malabar Qurbana, discover how this sacred liturgical gesture expresses reconciliation, fraternal charity, and the true peace bestowed upon the Church by the Risen Christ."
 ---
 
