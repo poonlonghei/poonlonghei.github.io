@@ -76,8 +76,6 @@ It should be noted that the ceremonial kissing of the altar and the exchange of 
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjhK8sFJMeNGvXdcbl0tX_RQVlcNQnRM4yoG3zk16NoVFvjAOlCMDmrIPZi7eHoBJpEURX4REnrsE3ZNc0e7C5P7YTRdls04T8eQVMaP2NY0PLKDzDTXjhN_HbE-Q6CmXSH8NrgwDQiMFPL0O9Yg4ze8i045yVaWV_bAtHPi07V20000oDtMWT9epfHg/s640/20_02_02_Sample_Trin_10.jpg)
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjITGLzfqDnzXGP1KhgSHx-Lpr1supcUR5gNzEtFitRU5vfoXgkG0YvnPcWhe33kiFGcNuw30_qx38JmZ5EAFA5BkKrCQNQW5l4BXZkokOflAz57UkQ-8DyM8r7e_jCkR2nyxkHM5ldDyti7xZ7UTXEqEWl0PDgxRHojWgwHz4rv-kpkycOwaIJgKZnZQ/s2146/Untitled.png)
-
 In addition to exchanging peace through a kiss or ceremonial embrace, the Western Church also made extensive use of the paxbrede, or pax-brede, as a means of transmitting the Sign of Peace.
 
 A pax-brede is a liturgical object presented to the faithful to be kissed. It is commonly made of metal, wood, or another suitable material and may be decorated with a cross, an image of Christ, or other religious imagery. By kissing the pax-brede, participants could express their peace and communion in Christ without necessarily exchanging direct kisses with one another.
