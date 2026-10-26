@@ -1,9 +1,9 @@
 ---
 title: "The Sign of Peace at Mass: Its Historical Development and Theological Significance"
-subtitle: "The history, liturgical significance, and enduring spiritual meaning of Christ the King in the Traditional Roman Calendar."
+subtitle: "Tracing the historical development and theological meaning of the Sign of Peace in the Roman and Eastern Catholic liturgical traditions."
 date: "26 October 2026"
 isoDate: "2026-10-25"
-excerpt: "Starting again with a website is a chance to think about what I actually want it to do. I began this project on WordPress, then moved toward a portfolio that brings my work and interests together."
+excerpt: "From the ancient kiss of peace to the ceremonial traditions of the Roman Rite and the Syro-Malabar Qurbana, discover how this sacred liturgical gesture expresses reconciliation, fraternal charity, and the true peace bestowed upon the Church by the Risen Christ."
 ---
 
 ## What is the Sign of Peace at Mass?
