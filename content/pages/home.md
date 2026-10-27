@@ -7,7 +7,9 @@ description: "The work and interests of Chavez Poon: Catholic media, writing, li
 
 Freelance Writer · Content Creator · Liturgical and Ceremonial Services
 
-I’m a freelance writer and social media content creator based in Walsingham, Norfolk, England, My work is aimed to drawn to the stories, people, and sacred traditions of the Catholic Church.
+I’m a freelance writer and social media content creator based in Walsingham, Norfolk, England.
+
+My work is aimed to drawn to the stories, people, and sacred traditions of the Catholic Church.
 
 ## Motto
 
