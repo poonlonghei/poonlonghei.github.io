@@ -3,4 +3,6 @@ title: "Writing & reflections"
 description: "Notes, reflections, and writing by Chavez Poon."
 ---
 
-## Notes along _the way._
+## Quod scripsi, _scripsi._
+
+### What I have written, _I have written._
