@@ -3,7 +3,7 @@ title: "Home"
 description: "The work and interests of Chavez Poon: Catholic media, writing, liturgical service, and digital projects."
 ---
 
-## Hi there, I’m Chavez!
+## Hi there, I’m Chavez.
 
 Freelance Writer · Social Media Content Creator · Lay Acolyte and Liturgical Master of Ceremonies
 
