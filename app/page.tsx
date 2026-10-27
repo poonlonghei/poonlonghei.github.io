@@ -187,16 +187,6 @@ export default function HomePage() {
                 </svg>
               </a>
               <a
-                href="https://poonlonghei.substack.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Substack"
-              >
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M3 3h18v2H3zm0 5h18v2H3zm0 4h18v10l-9-5-9 5z" />
-                </svg>
-              </a>
-              <a
                 href="https://www.facebook.com/poonlhchavez/"
                 target="_blank"
                 rel="noopener noreferrer"
