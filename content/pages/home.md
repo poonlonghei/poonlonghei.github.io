@@ -3,9 +3,9 @@ title: "Home"
 description: "The work and interests of Chavez Poon: Catholic media, writing, liturgical service, and digital projects."
 ---
 
-## Hi, I’m Chavez.
+## Hi there, I’m Chavez!
 
-Freelance Writer · Content Creator · Liturgical and Ceremonial Services
+Freelance Writer · Social Media Content Creator · Lay Acolyte and Liturgical Master of Ceremonies
 
 I’m a freelance writer and social media content creator based in Walsingham, Norfolk, England. My work is aimed to drawn to the stories, people, and sacred traditions of the Catholic Church.
 
