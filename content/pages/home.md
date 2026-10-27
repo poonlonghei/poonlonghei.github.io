@@ -5,9 +5,9 @@ description: "The work and interests of Chavez Poon: Catholic media, writing, li
 
 ## Hi, I’m Chavez.
 
-Writer · Content Creator · Liturgical and Ceremonial Services
+Freelance Writer · Content Creator · Liturgical and Ceremonial Services
 
-I’m a freelance writer and social media content creator based in Walsingham, England, drawn to the stories, people, and traditions of the Catholic Church.
+I’m a freelance writer and social media content creator based in Walsingham, Norfolk, England. My work is aimed to drawn to the stories, people, and sacred traditions of the Catholic Church.
 
 ## Motto
 
@@ -17,7 +17,7 @@ Dixi, et salvavi animam meam!
 
 ## Faith, people & the stories between.
 
-Born and raised in Hong Kong, now at home in Walsingham, United Kingdom. My work lives where Catholic life, careful storytelling, and thoughtful communication meet.
+Born and raised in Hong Kong, now based in Walsingham, Norfolk, United Kingdom. My work lives where Catholic life, careful storytelling, and thoughtful communication meet.
 
 ## What I do
 
@@ -33,7 +33,7 @@ A selection of my works on interviews and films from Catholic events and communi
 
 ## From the blog.
 
-Notes & reflections
+Notes & reflections...
 
 ## Contact prompt
 
