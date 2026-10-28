@@ -1,5 +1,5 @@
 ---
-title: "Should Catholics Celebrate Halloween"
+title: "Should Catholics Celebrate Halloween?"
 subtitle: "Rediscovering the Christian Meaning of All Hallows’ Eve."
 description: "A Catholic reflection on Halloween, the occult, and preparing for All Saints' Day and All Souls' Day."
 date: "28 October 2026"
@@ -29,7 +29,7 @@ Some Christians avoid Halloween altogether, concerned about its association with
 
 The Catechism of the Catholic Church teaches:
 
-“All forms of divination are to be rejected: recourse to Satan or demons, conjuring up the dead or other practices falsely supposed to ‘unveil’ the future” (CCC 2116).
+>*“All forms of divination are to be rejected: recourse to Satan or demons, conjuring up the dead or other practices falsely supposed to ‘unveil’ the future” (CCC 2116).*
 
 Similarly, the Catechism condemns superstition and the practices of magic and sorcery that seek to enlist occult powers (CCC 2110–2117).
 
@@ -104,3 +104,5 @@ As we approach these solemn days, let us turn our hearts away from empty distrac
 May Our Lady, Queen of All Saints, intercede for us and lead us ever closer to her Divine Son.
 
 *Omnes Sancti et Sanctæ Dei, intercedite pro nobis.*
+
+*All holy men and women of God, pray for us.*
