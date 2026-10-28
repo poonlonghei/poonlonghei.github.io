@@ -1,5 +1,5 @@
 ---
-title: "Should Catholics Celebrate Halloween?"
+title: "Should Catholics Celebrate Halloween"
 subtitle: "Rediscovering the Christian Meaning of All Hallows’ Eve."
 date: "28 October 2026"
 isoDate: "2026-10-28"
