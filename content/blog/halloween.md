@@ -3,6 +3,7 @@ title: "Should Catholics Celebrate Halloween?"
 subtitle: "Rediscovering the Christian Meaning of All Hallows’ Eve."
 date: "28 October 2026"
 isoDate: "2026-10-28"
+excerpt: "Should Catholics celebrate Halloween? A reflection on its origins, Christian traditions, and how Catholics can approach the occasion faithfully."
 ---
 
 ## A Catholic Perspective on Halloween
