@@ -34,31 +34,37 @@ Basilica and National Shrine of Our Lady of Walsingham · Norfolk, United Kingdo
 ### Our Lady of Annunciation Parish Church
 
 Walsingham, Norfolk, United Kingdom  
+
 **February 2026 - Present**
 
 ### Basilica and National Shrine of Our Lady of Walsingham
 
 Walsingham, Norfolk, United Kingdom  
+
 **December 2025 – May 2026**
 
 ### SSPX Hong Kong Community
 
 Tsim Sha Tsui, Kowloon, Hong Kong
+
 **December 2024 - September 2025**
 
 ### Our Lady of Fatima Parish Church
 
 Cheung Chau Island, Hong Kong
+
 **October 2019 - September 2021**
 
 ### Hong Kong Diocesan Tridentine Latin Mass Community
 
 Ma Tau Wai, Kowloon, Hong Kong
+
 **August 2016 - February 2017**
 
 ### Tak Sun Secondary School Altar Server Guild
 
 Ma On Shan, New Territories, Hong Kong
+
 **September 2015 - November 2026**
 
 ## Professional Formation
