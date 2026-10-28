@@ -29,6 +29,8 @@ jobs:
         run: npm ci
       - name: Build static website
         run: npm run build
+      - run: node scripts/generate-resume-pdf.mjs
+      - uses: actions/upload-pages-artifact@v3 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static export
