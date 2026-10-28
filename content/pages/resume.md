@@ -31,12 +31,30 @@ Basilica and National Shrine of Our Lady of Walsingham · Norfolk, United Kingdo
 
 ## Liturgical and Ceremonial Service
 
-### Acolyte, Sacristan & Master of Ceremonies
+### Our Lady of Annunciation Parish Church
 
-Parishes and other Ecclesiastical Communities · Hong Kong, Macau & United Kingdom  
-**10+ years**
+Walsingham, Norfolk, United Kingdom  
+**February 2026 - Present**
 
-Served at Holy Mass and other sacred liturgical celebrations.
+### Basilica and National Shrine of Our Lady of Walsingham
+
+Walsingham, Norfolk, United Kingdom  
+**December 2025 – May 2026**
+
+### SSPX Hong Kong Community
+
+Tsim Sha Tsui, Kowloon, Hong Kong
+**December 2024 - September 2025**
+
+## Our Lady of Fatima Parish Church
+
+Cheung Chau Island, Hong Kong
+**October 2019 - September 2021**
+
+### Tak Sun Secondary School Altar Server Guild
+
+Ma On Shan, New Territories, Hong Kong
+**September 2015 - November 2026**
 
 ## Professional Formation
 
