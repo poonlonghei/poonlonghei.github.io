@@ -46,10 +46,15 @@ Walsingham, Norfolk, United Kingdom
 Tsim Sha Tsui, Kowloon, Hong Kong
 **December 2024 - September 2025**
 
-## Our Lady of Fatima Parish Church
+### Our Lady of Fatima Parish Church
 
 Cheung Chau Island, Hong Kong
 **October 2019 - September 2021**
+
+### Hong Kong Diocesan Tridentine Latin Mass Community
+
+Ma Tau Wai, Kowloon, Hong Kong
+**August 2016 - February 2017**
 
 ### Tak Sun Secondary School Altar Server Guild
 
