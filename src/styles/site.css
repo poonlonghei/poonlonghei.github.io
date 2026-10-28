@@ -175,3 +175,21 @@ main{animation:page-fade-in .7s ease both}.fade-section{opacity:0;transform:tran
   .zh-home-hero h1{white-space:normal;font-size:clamp(1.45rem,6.2vw,2rem);line-height:1.4;letter-spacing:-.035em}
   .zh-home-hero .zh-hero-intro{margin-top:1rem}
 }
+
+/* Résumé hero: download button + scroll cue on one row */
+.resume-hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:1.25rem 2rem;margin-top:3rem}
+.resume-hero-actions .resume-scroll-cue{margin-top:0}
+
+/* PDF / print layout (used by scripts/generate-resume-pdf.mjs) */
+@media print{
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  body::before,.site-header,.site-footer,.resume-sidebar,.resume-hero-actions,.mobile-menu-toggle{display:none!important}
+  body{background:#fff}
+  .resume-page{padding-bottom:0}
+  .resume-hero{min-height:0;padding-block:0 1.5rem;border-bottom:1px solid var(--line);background:none}
+  .resume-hero .subpage-title{margin:.6rem 0 1rem;font-size:3rem}
+  .resume-hero-portrait{width:9rem}
+  .resume-content-layout{padding-top:1rem}
+  .resume-block{padding:1.25rem 0}
+  .resume-entry{break-inside:avoid}
+}

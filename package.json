@@ -21,6 +21,8 @@
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "puppeteer": "^25.16.0",
+    "serve": "^14.2.6",
     "typescript": "^5.9.0"
   }
 }

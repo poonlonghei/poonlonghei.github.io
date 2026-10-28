@@ -24,6 +24,13 @@ export default function ResumePage() {
             <a className="resume-scroll-cue" href="#resume-content">
               Explore my experience <span aria-hidden="true">↓</span>
             </a>
+            <a
+              className="resume-download"
+              href="/resume.pdf"
+              download="Chavez-Poon-Resume.pdf"
+            >
+              Download PDF <span aria-hidden="true">↓</span>
+            </a>
           </div>
           <div className="resume-hero-portrait">
             <Image
