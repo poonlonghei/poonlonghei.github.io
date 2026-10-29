@@ -41,4 +41,4 @@ Have a story in mind?
 
 ## Let’s make something meaningful.
 
-For writing, Catholic journalism, digital content, and documentary work, I’d be glad to hear from you.
+For writing, social media digital content or other collaboration works, I’d be glad to hear from you.
