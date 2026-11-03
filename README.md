@@ -37,6 +37,26 @@ The generated static site is written to `out/`. To check TypeScript types withou
 npm run typecheck
 ```
 
+To export the résumé as a PDF and full-page screenshot with Puppeteer:
+
+```sh
+npm run resume:pdf
+```
+
+By default this serves the local static export and uses local Chromium. To render
+through [Browserless](https://browserless.io/), provide a Browserless token and
+the public résumé URL:
+
+```sh
+BROWSERLESS_TOKEN=your-token \
+RESUME_URL=https://www.chavezpoon.com/resume/ \
+npm run resume:pdf
+```
+
+The generated files are `out/resume.pdf` and `out/resume.png`. Set
+`BROWSERLESS_WS_ENDPOINT` if your Browserless region or endpoint differs from
+the default.
+
 ## Add a blog post
 
 Create a Markdown file in `content/blog/`. Use a lowercase, hyphen-separated filename; it becomes the post's URL slug (for example, `my-new-post.md`). Add all of the required frontmatter fields, then write the post content under one or more `##` headings:

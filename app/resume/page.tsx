@@ -21,9 +21,19 @@ export default function ResumePage() {
               content={intro.content}
               className="resume-hero-intro"
             />
-            <a className="resume-scroll-cue" href="#resume-content">
-              Explore my experience <span aria-hidden="true">↓</span>
-            </a>
+            <div className="resume-hero-actions">
+              <a
+                className="button button-dark"
+                href="/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View PDF <span aria-hidden="true">↗</span>
+              </a>
+              <a className="resume-scroll-cue" href="#resume-content">
+                Explore my experience <span aria-hidden="true">↓</span>
+              </a>
+            </div>
           </div>
           <div className="resume-hero-portrait">
             <Image
