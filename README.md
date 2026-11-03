@@ -69,4 +69,4 @@ The `public/CNAME` file configures the `www.chavezpoon.com` custom domain for Gi
 
 ## Contact form
 
-The contact form submits to FormSubmit at `poonlhchavez@gmail.com`. FormSubmit requires a one-time email confirmation before it delivers the first submission.
+The contact form submits to FormSubmit at `poonlhchavez@gmail.com`. The sender's email is included as the reply-to address. FormSubmit requires a one-time email confirmation before it delivers the first submission.
