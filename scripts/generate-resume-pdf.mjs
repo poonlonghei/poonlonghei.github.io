@@ -77,11 +77,8 @@ const resumeDocument = ({ title, name, intro, contact, updatedAt, sections }) =>
       }
       .intro p { margin: 0 0 7px; }
       .intro p:last-child { margin-bottom: 0; }
-      .layout {
-        display: grid;
-        grid-template-columns: 1fr 150px;
-        gap: 30px;
-      }
+      .layout { display: block; }
+      main { max-width: 680px; }
       section {
         break-inside: avoid;
         margin-bottom: 22px;
@@ -115,33 +112,6 @@ const resumeDocument = ({ title, name, intro, contact, updatedAt, sections }) =>
       }
       section ul { margin: 6px 0 0; padding-left: 15px; }
       section strong { color: #3d5962; font-weight: 700; }
-      .side {
-        padding-left: 16px;
-        border-left: 1px solid #d6e2e4;
-      }
-      .side h2 {
-        margin: 0 0 10px;
-        color: #4b8793;
-        font-size: 8px;
-        letter-spacing: .14em;
-        text-transform: uppercase;
-      }
-      .side a {
-        display: block;
-        margin: 0 0 8px;
-        color: #65777d;
-        font-size: 8.5px;
-        text-decoration: none;
-      }
-      .side .pdf {
-        margin-top: 20px;
-        padding: 9px 10px;
-        border: 1px solid #b9d1d5;
-        color: #376d78;
-        font-weight: 700;
-        letter-spacing: .04em;
-        text-transform: uppercase;
-      }
       footer {
         margin-top: 10px;
         padding-top: 9px;
@@ -162,11 +132,6 @@ const resumeDocument = ({ title, name, intro, contact, updatedAt, sections }) =>
     <div class="intro">${intro}</div>
     <div class="layout">
       <main>${sections.map(({ id, title: sectionTitle, content }) => `<section id="${id}"><h2>${sectionTitle}</h2>${content}</section>`).join('')}</main>
-      <aside class="side">
-        <h2>Contents</h2>
-        ${sections.map(({ id, title: sectionTitle }) => `<a href="#${id}">${sectionTitle}</a>`).join('')}
-        <a class="pdf" href="/resume/file.pdf">PDF ↗</a>
-      </aside>
     </div>
     <footer>${escapeHtml(updatedAt)} · ${escapeHtml(name)}</footer>
   </body>
@@ -203,7 +168,10 @@ try {
         executablePath: process.env.CHROME_PATH || undefined,
       });
   const page = await browser.newPage();
-  await page.goto(resumeUrl, { waitUntil: 'domcontentloaded' });
+  const sourceUrl = new URL(resumeUrl);
+  sourceUrl.searchParams.set('_pdf', Date.now().toString());
+  await page.goto(sourceUrl, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('.resume-block', { timeout: 30000 });
   const resumeData = await page.evaluate(() => {
     const heroEyebrow = document.querySelector('.resume-hero .eyebrow')?.textContent?.trim() || '';
     const introElement = document.querySelector('.resume-hero-intro');
@@ -229,6 +197,9 @@ try {
       })),
     };
   });
+  if (!resumeData.sections.length) {
+    throw new Error(`No resume sections found at ${sourceUrl}`);
+  }
   await page.setContent(resumeDocument(resumeData), { waitUntil: 'domcontentloaded' });
   await page.screenshot({
     path: `${outputDirectory}/resume.png`,
