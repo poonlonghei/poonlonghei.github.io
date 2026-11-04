@@ -1081,33 +1081,62 @@
 .english-content .gallery-grid {
   display: grid;
   grid-auto-flow: dense;
-  grid-auto-rows: 76px;
+  grid-auto-rows: 82px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  gap: 16px;
 }
 
 .english-content .gallery-photo {
   position: relative;
   display: block;
   min-width: 0;
+  isolation: isolate;
   padding: 0;
-  border: 0;
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 2px;
   overflow: hidden;
   background: #dce6e7;
+  box-shadow: 0 10px 24px rgb(52 75 85 / 8%);
   cursor: zoom-in;
+  transform: translateZ(0);
+  transition: box-shadow 260ms ease, transform 260ms ease;
+}
+
+.english-content .gallery-photo::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(145deg, rgb(29 57 64 / 0%), rgb(29 57 64 / 30%));
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 260ms ease;
 }
 
 .english-content .gallery-photo > img {
   object-fit: cover;
-  transition: transform 450ms cubic-bezier(.2, .7, .2, 1);
+  transition: transform 650ms cubic-bezier(.2, .7, .2, 1), filter 260ms ease;
 }
 
-.english-content .gallery-photo:hover > img {
-  transform: scale(1.035);
+.english-content .gallery-photo:hover,
+.english-content .gallery-photo:focus-visible {
+  box-shadow: 0 18px 34px rgb(52 75 85 / 18%);
+  transform: translateY(-4px);
+}
+
+.english-content .gallery-photo:hover::after,
+.english-content .gallery-photo:focus-visible::after {
+  opacity: 1;
+}
+
+.english-content .gallery-photo:hover > img,
+.english-content .gallery-photo:focus-visible > img {
+  filter: saturate(1.08) contrast(1.03);
+  transform: scale(1.07);
 }
 
 .english-content .gallery-photo:focus-visible {
-  outline-offset: 3px;
+  outline-offset: 5px;
   z-index: 1;
 }
 
@@ -1131,6 +1160,14 @@
 
 .english-content .gallery-photo--regular {
   grid-row: span 3;
+}
+
+.english-content .gallery-photo:nth-child(4n + 2) {
+  border-radius: 2px 18px 2px 18px;
+}
+
+.english-content .gallery-photo:nth-child(4n + 3) {
+  border-radius: 18px 2px 18px 2px;
 }
 
 .english-content .gallery-lightbox {

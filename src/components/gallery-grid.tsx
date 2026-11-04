@@ -3,7 +3,19 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-const layouts = ["feature", "tall", "regular", "wide", "portrait", "regular", "tall", "regular"];
+const layouts = [
+  "feature",
+  "wide",
+  "tall",
+  "wide",
+  "tall",
+  "feature",
+  "wide",
+  "regular",
+  "tall",
+  "feature",
+  "wide",
+];
 
 export function GalleryGrid({ photos }: { photos: string[] }) {
   const [activePhoto, setActivePhoto] = useState<number | null>(null);
