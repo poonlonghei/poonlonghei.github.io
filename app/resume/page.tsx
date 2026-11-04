@@ -22,14 +22,6 @@ export default function ResumePage() {
               className="resume-hero-intro"
             />
             <div className="resume-hero-actions">
-              <a
-                className="button button-dark"
-                href="/resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View PDF <span aria-hidden="true">↗</span>
-              </a>
               <a className="resume-scroll-cue" href="#resume-content">
                 Explore my experience <span aria-hidden="true">↓</span>
               </a>
@@ -56,6 +48,16 @@ export default function ResumePage() {
                 </a>
               ))}
             </nav>
+            <div className="resume-sidebar-actions">
+              <a
+                className="button button-dark resume-pdf-button"
+                href="/resume/file.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>PDF</span> <span aria-hidden="true">↗</span>
+              </a>
+            </div>
           </aside>
 
           <div className="resume-sections">

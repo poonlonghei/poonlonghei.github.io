@@ -53,7 +53,7 @@ RESUME_URL=https://www.chavezpoon.com/resume/ \
 npm run resume:pdf
 ```
 
-The generated files are `out/resume.pdf` and `out/resume.png`. Set
+The generated files are `out/resume/file.pdf`, `out/resume.pdf`, and `out/resume.png`. Set
 `BROWSERLESS_WS_ENDPOINT` if your Browserless region or endpoint differs from
 the default.
 

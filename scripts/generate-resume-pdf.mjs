@@ -1,5 +1,5 @@
 import { spawn } from 'node:child_process';
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import puppeteer from 'puppeteer';
 
 const PORT = 4173;
@@ -53,6 +53,8 @@ try {
     printBackground: true,
     margin: { top: '12mm', bottom: '12mm', left: '12mm', right: '12mm' },
   });
+  await mkdir(`${outputDirectory}/resume`, { recursive: true });
+  await writeFile(`${outputDirectory}/resume/file.pdf`, pdf);
   await writeFile(`${outputDirectory}/resume.pdf`, pdf);
 } finally {
   if (browser) {
