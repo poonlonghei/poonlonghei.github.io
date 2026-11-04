@@ -203,7 +203,7 @@ try {
         executablePath: process.env.CHROME_PATH || undefined,
       });
   const page = await browser.newPage();
-  await page.goto(resumeUrl, { waitUntil: 'networkidle0' });
+  await page.goto(resumeUrl, { waitUntil: 'domcontentloaded' });
   const resumeData = await page.evaluate(() => {
     const heroEyebrow = document.querySelector('.resume-hero .eyebrow')?.textContent?.trim() || '';
     const introElement = document.querySelector('.resume-hero-intro');
@@ -229,7 +229,7 @@ try {
       })),
     };
   });
-  await page.setContent(resumeDocument(resumeData), { waitUntil: 'networkidle0' });
+  await page.setContent(resumeDocument(resumeData), { waitUntil: 'domcontentloaded' });
   await page.screenshot({
     path: `${outputDirectory}/resume.png`,
     fullPage: true,
