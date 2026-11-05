@@ -15,6 +15,8 @@ Born and raised in Hong Kong and now based in Walsingham, Norfolk, Chavez works 
 
 **Personal Website:** https://www.chavezpoon.com
 
+**ORCID:** 0009-0000-9931-7670
+
 ## Experience
 
 ### Production Assistant
@@ -22,7 +24,7 @@ Born and raised in Hong Kong and now based in Walsingham, Norfolk, Chavez works 
 EWTN Great Britain · United Kingdom  
 **June 2026 – Present**
 
-- Assist with filming and interviewing at Catholic events across the United Kingdom.
+- Assist with filming, editing and interviewing at the Catholic events across the United Kingdom.
 - Support media coverage and the communication of Catholic stories and events.
 
 ### Mass and Pilgrimage Office Assistant
@@ -30,8 +32,22 @@ EWTN Great Britain · United Kingdom
 Basilica and National Shrine of Our Lady of Walsingham · Norfolk, United Kingdom  
 **December 2025 – May 2026**
 
-- Assist with the organisation of Holy Masses, pilgrimages, and other liturgical celebrations.
-- Support Mass and Pilgrimage Office administration, including communications with pilgrimage organisers.
+- Assist with the organisation of Holy Masses, pilgrimages, and other liturgical celebrations in the shrine site.
+- Supporting the administration in the Shrine's Mass and Pilgrimage Office, including the communications between the shrine officials and the pilgrimage organizers.
+
+## Publications
+
+### Liturgical Books
+
+- [Ordinarium et Canon Missæ -- Secundum Usum Ecclesiæ Sarum in Angliæ](https://www.academia.edu/175392260/Ordinarium_et_Canon_Miss%C3%A6_Secundum_Usum_Ecclesi%C3%A6_Sarum_in_Angli%C3%A6) (September 2026)
+
+- [The Order of Holy Mass in Traditional Cantonese with Romanization](https://www.academia.edu/175888575/The_Order_of_Holy_Mass_in_Traditional_Cantonese_with_Romanization) (August 2026)
+
+### Translations
+
+#### English to Chinese
+
+- Dom Cipriano Vagaggini OSB, *The Canon of the Mass and Liturgical Reform* 「彌撒正典與禮儀改革」(Work in progress)
 
 ## Liturgical and Ceremonial Service
 
@@ -71,7 +87,7 @@ Ma On Shan, New Territories, Hong Kong
 
 **September 2015 - November 2026**
 
-## Professional Formation
+## Professional Formation and Development
 
 ### EWTN Summer Academy
 
@@ -91,7 +107,7 @@ Developed interests in Catholic journalism, digital evangelisation, and media co
 
 ## Technological Skills
 
-HTML · CSS · JavaScript · TypeScript · Bootstrap · Next.js · Tailwind.CSS · WordPress
+HTML · CSS · JavaScript · TypeScript · Bootstrap · Next.js · Tailwind.CSS · Hugo · WordPress
 
 ## Ecclesiastical Sacraments
 
