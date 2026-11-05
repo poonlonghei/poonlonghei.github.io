@@ -39,6 +39,9 @@ jobs:
       - name: Build Next.js site
         run: npm run build
 
+      - name: Install CJK fonts for résumé PDF
+        run: sudo apt-get update && sudo apt-get install --no-install-recommends -y fonts-noto-cjk
+
       - name: Generate résumé PDF
         run: node scripts/generate-resume-pdf.mjs
 

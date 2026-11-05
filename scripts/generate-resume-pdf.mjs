@@ -22,7 +22,7 @@ const escapeHtml = (value) => value
 const resumeDocument = ({ title, name, intro, contact, updatedAt, sections }) => `<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>${escapeHtml(title)} · ${escapeHtml(name)}</title>
     <style>
       @page { size: A4; margin: 15mm 16mm 16mm; }
@@ -32,7 +32,8 @@ const resumeDocument = ({ title, name, intro, contact, updatedAt, sections }) =>
         margin: 0;
         color: #23343b;
         background: #fff;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: "Noto Sans CJK TC", "Noto Sans CJK SC", "PingFang TC",
+          "PingFang SC", "Microsoft JhengHei", Arial, Helvetica, sans-serif;
         font-size: 10px;
         line-height: 1.55;
         -webkit-print-color-adjust: exact;
@@ -201,6 +202,7 @@ try {
     throw new Error(`No resume sections found at ${sourceUrl}`);
   }
   await page.setContent(resumeDocument(resumeData), { waitUntil: 'domcontentloaded' });
+  await page.evaluate(() => document.fonts.ready);
   await page.screenshot({
     path: `${outputDirectory}/resume.png`,
     fullPage: true,

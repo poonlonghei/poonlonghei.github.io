@@ -56,6 +56,9 @@ npm run resume:pdf
 The generated files are `out/resume/file.pdf`, `out/resume.pdf`, and
 `out/resume.png`. The PDF uses the rendered `/resume/` page as its content
 source, so changes made to the resume webpage are reflected automatically.
+The PDF template uses UTF-8 and a CJK-capable font fallback so Chinese text is
+preserved when the PDF is generated. The GitHub Actions workflow installs the
+Noto CJK fonts required by its Linux runner.
 Set `BROWSERLESS_WS_ENDPOINT` if your Browserless region or endpoint differs
 from the default.
 
