@@ -5,4 +5,4 @@ description: "Written work, interviews, film, and digital storytelling from Cath
 
 ## Selected _projects._
 
-A simple archive of written work, interviews, film, and digital storytelling from Catholic communities and public events.
+A simple archive of my works in interviews, film, and digital storytelling from Catholic communities and public events.
