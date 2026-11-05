@@ -7,6 +7,14 @@ description: "The professional experience, liturgical service, formation, langua
 
 Born and raised in Hong Kong and now based in Walsingham, Norfolk, Chavez works across Catholic media, writing, content creation, and liturgical service. His work focuses on the Sacred Liturgy, the historic traditions of the Roman Catholic Church, ecclesiastical history, and contemporary Roman Catholic affairs.
 
+## Personal Information
+
+**Legal Name:** Poon Long Hei Chavez
+
+**Email:** poonlhchavez@gmail.com
+
+**Personal Website:** https://www.chavezpoon.com
+
 ## Experience
 
 ### Production Assistant
