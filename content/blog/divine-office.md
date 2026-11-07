@@ -7,9 +7,9 @@ isoDate: "2026-11-07"
 excerpt: "What does it mean to pray for our absent brethren? Through a brief Latin prayer at the conclusion of the Benedictine Divine Office, we discover the beauty of communal prayer, fraternal charity, and the enduring communion of monastic life."
 ---
 
-![](https://media.licdn.com/dms/image/v2/D4E12AQHY_rSGpva2wQ/article-cover_image-shrink_720_1280/B4EaGxXrVmJ8AQ-/0/1793977136975?e=1795651200&v=beta&t=O3Beg_fAujM6q9V-x3nRnLoft2nNK9kBUk9rhuquqTM)
-
 ## The hidden traditions of the Benedictine Divine Office
+
+![](https://media.licdn.com/dms/image/v2/D4E12AQHY_rSGpva2wQ/article-cover_image-shrink_720_1280/B4EaGxXrVmJ8AQ-/0/1793977136975?e=1795651200&v=beta&t=O3Beg_fAujM6q9V-x3nRnLoft2nNK9kBUk9rhuquqTM)
 
 In the monastic tradition of the Catholic Church, the Divine Office (Divinum Officium), also known as the Liturgy of the Hours, is not merely a fixed schedule of daily prayer for religious, but the very heart of the common life of a monastic community. Particularly in the Benedictine tradition, prayer and work (Ora et Labora) are interwoven, making the life of a monk a continual act of worship offered to God.
 
