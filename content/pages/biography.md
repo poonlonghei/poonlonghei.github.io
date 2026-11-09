@@ -5,11 +5,11 @@ description: "Biography of Chavez Poon, an independent Roman Catholic writer and
 
 ## A life of faith, _story, and service._
 
-My name is Chavez Poon, and I am a young Traditionalist Roman Catholic layman, Acolyte, and Liturgical Master of Ceremonies. I am also a member of the Society of St. Justin Martyr (Societas Sancti Iustini Martyris, SSIM) in the United Kingdom. As a Catholic deeply devoted to the Sacred Liturgy and the historic traditions of the Roman Catholic Church, I seek to serve the Church and communicate the beauty and richness of her faith through liturgical service, writing, journalism, and digital media.
+My name is Chavez Poon Long Hei, my baptismal name is Cyrillus Mariae (Cyril Mary), and I am a young Traditionalist Roman Catholic layman, Acolyte, and Liturgical Master of Ceremonies (aka Ceremoniere). I am also a member of the Society of St. Justin Martyr (Societas Sancti Iustini Martyris, SSIM) in the United Kingdom. As a Catholic deeply devoted to the Sacred Liturgy and the historic traditions of the Roman Catholic Church, I seek to serve the Church and communicate the beauty and richness of her faith through liturgical service, writing, journalism, and digital media.
 
 ### My Journey of Faith
 
-I was born in June 2003 in Hong Kong, where I spent the first twenty-two years of my life. I was baptized into the Roman Catholic Church in April 2012 and received the Sacrament of Confirmation in October 2014. My Catholic faith has remained a central part of my life, shaping my values, aspirations, and understanding of my vocation to serve God and His Church.
+I was born in 14th June 2003 in Hong Kong, where I spent the first twenty-two years of my life. I was baptized into the Roman Catholic Church in April 2012 and received the Sacrament of Confirmation in October 2014. My Catholic faith has remained a central part of my life, shaping my values, aspirations, and understanding of my vocation to serve God and His Church.
 
 In December 2025, I moved to the United Kingdom to begin working at the Basilica and National Shrine of Our Lady of Walsingham, England's historic national Marian shrine in North Norfolk, affectionately known as England's Nazareth. During my time at the Shrine, I had the privilege of assisting pilgrims from across the United Kingdom and around the world as they came to Walsingham to offer their prayers and intentions to Our Blessed Lady. This experience deepened my appreciation for the spiritual significance of pilgrimage, the universality of the Catholic Church, and the enduring devotion of the faithful to the Mother of God.
 
