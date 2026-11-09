@@ -9,6 +9,8 @@ excerpt: "What does it mean to pray for our absent brethren? Through a brief Lat
 
 ## The hidden traditions of the Benedictine Divine Office
 
+![](https://www.chavezpoon.com/public/assets/photos/chanting.jpg)
+
 In the monastic tradition of the Catholic Church, the Divine Office (Divinum Officium), also known as the Liturgy of the Hours, is not merely a fixed schedule of daily prayer for religious, but the very heart of the common life of a monastic community. Particularly in the Benedictine tradition, prayer and work (Ora et Labora) are interwoven, making the life of a monk a continual act of worship offered to God.
 
 Most recently, I had the privilege of experiencing monastic and communal life during my visit to Ealing Abbey, a Benedictine monastery in London, from 30 October to 2 November 2026. During my stay, I was able to experience firsthand the prayer and communal life of the Benedictine monks. This experience deepened my appreciation of the rhythm of prayer in the Benedictine Divine Office, particularly a Latin prayer recited at the conclusion of the Office:
