@@ -1971,6 +1971,7 @@
   box-shadow: 0 24px 70px rgb(46 80 83 / 7%);
 }
 .english-home .english-about-copy { background: linear-gradient(145deg, #eaf5f3, #f5faf9); }
+.english-home .english-about-actions .english-button-outline { color: #fff !important; }
 .english-home .english-about-copy h2,
 .english-home .english-section-heading h2 { color: #294b55; }
 .english-home .english-about-detail { transition: background-color 220ms ease; }
@@ -2084,4 +2085,111 @@
   .english-home .english-intro > div:first-child,
   .english-home .english-intro-note,
   .english-home .english-availability span { animation: none; }
+}
+
+/* Shared motion and depth across every English page. */
+.english-header {
+  border-bottom-color: rgb(57 125 130 / 14%);
+  background: rgb(244 249 250 / 88%);
+  transition: background-color 220ms ease, box-shadow 220ms ease;
+}
+.english-brand { transition: transform 220ms ease, color 220ms ease; }
+.english-brand:hover { transform: translateY(-2px) rotate(-4deg); color: #397d82 !important; }
+.english-nav a { position: relative; transition: color 180ms ease, transform 180ms ease; }
+.english-nav a:not(.english-nav-contact)::after {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  left: 0;
+  height: 1px;
+  background: #397d82;
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms cubic-bezier(.2,.7,.2,1);
+}
+.english-nav a:hover { transform: translateY(-1px); color: #397d82; }
+.english-nav a:hover::after,
+.english-nav a:focus-visible::after { transform: scaleX(1); }
+.english-nav-contact { padding: 10px 15px; border: 1px solid #cfe0e0; border-radius: 999px; transition: background 180ms ease, border-color 180ms ease; }
+.english-nav-contact:hover { border-color: #9bc2c3; background: #e9f4f2; }
+.english-footer { color: #74858a; }
+.english-footer-name { transition: color 180ms ease, letter-spacing 180ms ease; }
+.english-footer-name:hover { letter-spacing: .02em; }
+
+.english-content > main:not(.english-home),
+.english-content > .subpage,
+.english-content > .portfolio-markdown-page { animation: english-page-in .55s cubic-bezier(.2,.7,.2,1) both; }
+.english-content .subpage > .english-eyebrow,
+.english-content .subpage > .eyebrow { display: flex; align-items: center; gap: 10px; }
+.english-content .subpage > .english-eyebrow::before,
+.english-content .subpage > .eyebrow::before { width: 22px; height: 1px; background: #397d82; content: ""; }
+.english-content .subpage-title { color: #294b55; }
+.english-content .subpage-title em { color: #397d82; }
+.english-content .subpage-lede { color: #627981; }
+.english-content .biography-copy { position: relative; }
+.english-content .biography-copy p { transition: color 180ms ease; }
+.english-content .biography-copy p:hover { color: #355d66; }
+
+.english-content .markdown-project {
+  position: relative;
+  padding: clamp(22px, 3.5vw, 42px);
+  border: 1px solid #dce8e8;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgb(255 255 255 / 95%), rgb(244 249 248 / 88%));
+  box-shadow: 0 12px 36px rgb(37 72 77 / 5%);
+  transition: transform 260ms cubic-bezier(.2,.7,.2,1), box-shadow 260ms ease, border-color 260ms ease;
+}
+.english-content .markdown-project:hover { transform: translateY(-4px); border-color: #bad4d4; box-shadow: 0 22px 48px rgb(37 72 77 / 11%); }
+.english-content .markdown-project h2 { color: #294b55; transition: color 180ms ease; }
+.english-content .markdown-project:hover h2 { color: #397d82; }
+.english-content .markdown-tag { border-radius: 999px; background: #e9f3f1; color: #397d82; }
+.english-content .video-frame { border-radius: 10px; box-shadow: 0 12px 30px rgb(34 65 72 / 9%); }
+
+.english-content .gallery-photo { border-radius: 9px; box-shadow: 0 8px 24px rgb(34 65 72 / 7%); }
+.english-content .gallery-photo:hover,
+.english-content .gallery-photo:focus-visible { box-shadow: 0 20px 42px rgb(34 65 72 / 20%); }
+.english-content .gallery-lightbox[open] { animation: english-lightbox-in 220ms ease both; }
+.english-content .gallery-lightbox button { transition: transform 180ms ease, background-color 180ms ease; }
+.english-content .gallery-lightbox button:hover { transform: scale(1.06); }
+
+.english-content .post-list-item { transition: padding 220ms ease, border-color 220ms ease; }
+.english-content .post-list-item:hover { padding-left: 12px; border-color: #9fc4c5; }
+.english-content .post-list-item h2 a { transition: color 180ms ease; }
+.english-content .post-list-item h2 a:hover { color: #397d82; }
+.english-content .blog-archive nav a { border-radius: 7px; }
+.english-content .article-header h1 { color: #294b55; }
+.english-content .article-body h2 { position: relative; color: #294b55; }
+.english-content .article-body h2::before { position: absolute; top: .2em; right: calc(100% + 12px); width: 3px; height: 1em; border-radius: 9px; background: #71a5a7; content: ""; }
+.english-content .article-aside { border-left-color: #b8d2d1; }
+
+.english-content .resume-block { transition: border-color 220ms ease; }
+.english-content .resume-block:hover { border-color: #8eb7b8; }
+.english-content .resume-entry h3 { transition: color 180ms ease; }
+.english-content .resume-entry:hover h3 { color: #397d82; }
+.english-content .language-pill,
+.english-content .skill-pills span { border-radius: 8px; transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease; }
+.english-content .language-pill:hover,
+.english-content .skill-pills span:hover { transform: translateY(-3px); border-color: #b3d0d0; box-shadow: 0 8px 20px rgb(34 65 72 / 8%); }
+.english-content .resume-hero-portrait::before { border-color: #74a9aa; transition: transform 300ms ease; }
+.english-content .resume-hero-portrait:hover::before { transform: translate(7px, -7px); }
+
+@keyframes english-page-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes english-lightbox-in {
+  from { opacity: 0; transform: scale(.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 640px) {
+  .english-nav-contact { border-color: transparent; border-radius: 0; }
+  .english-content .article-body h2::before { display: none; }
+  .english-content .post-list-item:hover { padding-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .english-content > main:not(.english-home),
+  .english-content > .subpage,
+  .english-content > .portfolio-markdown-page { animation: none; }
 }
