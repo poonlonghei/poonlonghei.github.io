@@ -1,5 +1,6 @@
 .next/
 out/
+/public/assets/photos/gallery-optimized/
 node_modules/
 *.tsbuildinfo
 .DS_Store

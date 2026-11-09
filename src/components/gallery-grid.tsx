@@ -39,7 +39,7 @@ export function GalleryGrid({ photos }: { photos: string[] }) {
   return <>
     <div className="gallery-grid">
       {photos.map((photo, index) => {
-        const imageUrl = `/assets/photos/gallery-photos/${encodeURIComponent(photo)}`;
+        const imageUrl = `/assets/photos/gallery-optimized/${encodeURIComponent(photo)}`;
         const layout = layouts[index % layouts.length];
 
         return <button className={`gallery-photo gallery-photo--${layout}`} type="button" onClick={() => setActivePhoto(index)} aria-label={`Enlarge photograph ${index + 1}`} key={photo}>
@@ -75,7 +75,7 @@ export function GalleryGrid({ photos }: { photos: string[] }) {
         </>}
         <div className="gallery-lightbox-image">
           <Image
-            src={`/assets/photos/gallery-photos/${encodeURIComponent(photos[activePhoto])}`}
+            src={`/assets/photos/gallery-optimized/${encodeURIComponent(photos[activePhoto])}`}
             alt={`Photograph ${activePhoto + 1}`}
             fill
             sizes="100vw"

@@ -9,8 +9,8 @@ const page = loadMarkdownPage("gallery");
 
 export const metadata = { title: page.title, description: page.description };
 
-const galleryDirectory = path.join(process.cwd(), "public", "assets", "photos", "gallery-photos");
-const imageExtensions = new Set([".avif", ".gif", ".jpeg", ".jpg", ".png", ".webp"]);
+const galleryDirectory = path.join(process.cwd(), "public", "assets", "photos", "gallery-optimized");
+const imageExtensions = new Set([".webp"]);
 
 function getGalleryPhotos() {
   return readdirSync(galleryDirectory, { withFileTypes: true })

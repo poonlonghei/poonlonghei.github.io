@@ -45,6 +45,9 @@ jobs:
       - name: Generate résumé PDF
         run: node scripts/generate-resume-pdf.mjs
 
+      - name: Remove original gallery photos from Pages artifact
+        run: rm -rf out/assets/photos/gallery-photos
+
       - name: Verify static export
         run: |
           if [ ! -d out ]; then
