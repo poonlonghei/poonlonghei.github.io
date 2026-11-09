@@ -11,7 +11,7 @@ Born and raised in Hong Kong and now based in Walsingham, Norfolk, Chavez works 
 
 **Legal Name:** Poon Long Hei Chavez
 
-**Email:** poonlhchavez@gmail.com
+**E-Mail:** poonlhchavez@gmail.com
 
 **Personal Website:** https://www.chavezpoon.com
 
