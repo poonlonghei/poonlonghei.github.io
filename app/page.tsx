@@ -139,41 +139,57 @@ export default async function HomePage() {
         </section>
 
         <section className="english-github" id="github-activity">
-          <div className="english-section-heading">
-            <div>
-              <p className="english-eyebrow">// Open source · recent updates</p>
-              <h2>Building in the open.</h2>
+          <div className="english-github-layout">
+            <aside className="english-github-profile">
+              <p className="english-eyebrow">// Find me on GitHub</p>
+              <div className="english-github-mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.6-1.3-1.6-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.3.8 1 .8 2v3.1c0 .3.2.6.8.5A11.1 11.1 0 0 0 12 .9Z" /></svg>
+              </div>
+              <h2>poonlonghei</h2>
+              <p className="english-github-profile-copy">My GitHub profile and open source work.</p>
+              <a className="english-button english-button-outline" href="https://github.com/poonlonghei" target="_blank" rel="noopener noreferrer">
+                Visit my profile <span>↗</span>
+              </a>
+            </aside>
+
+            <div className="english-github-updates">
+              <div className="english-github-heading">
+                <div>
+                  <p className="english-eyebrow">// Open source · recent updates</p>
+                  <h3>Repository update log</h3>
+                </div>
+                <a className="english-text-link" href="https://github.com/poonlonghei?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  All repositories <span>↗</span>
+                </a>
+              </div>
+              {repositories.length > 0 ? (
+                <ol className="english-github-list">
+                  {repositories.map((repository, index) => (
+                    <li className="english-github-item" key={repository.html_url}>
+                      <span className="english-github-index">{String(index + 1).padStart(2, "0")}</span>
+                      <div className="english-github-info">
+                        <a href={repository.html_url} target="_blank" rel="noopener noreferrer">
+                          {repository.name} <span aria-hidden="true">↗</span>
+                        </a>
+                        <p>{repository.description || "A project in progress."}</p>
+                      </div>
+                      <div className="english-github-meta">
+                        {repository.language && <span>{repository.language}</span>}
+                        <time dateTime={repository.pushed_at}>
+                          Updated {new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(repository.pushed_at))}
+                        </time>
+                      </div>
+                      <a className="english-github-history" href={`${repository.html_url}/commits`} target="_blank" rel="noopener noreferrer" aria-label={`View ${repository.name} update log`}>
+                        Update log <span aria-hidden="true">↗</span>
+                      </a>
+                    </li>
+                  ))}
+                </ol>
+              ) : (
+                <p className="english-github-empty">Repository updates are temporarily unavailable. Visit my GitHub profile to see the latest.</p>
+              )}
             </div>
-            <a className="english-text-link" href="https://github.com/poonlonghei?tab=repositories" target="_blank" rel="noopener noreferrer">
-              Browse all repositories <span>↗</span>
-            </a>
           </div>
-          {repositories.length > 0 ? (
-            <ol className="english-github-list">
-              {repositories.map((repository, index) => (
-                <li className="english-github-item" key={repository.html_url}>
-                  <span className="english-github-index">{String(index + 1).padStart(2, "0")}</span>
-                  <div className="english-github-info">
-                    <a href={repository.html_url} target="_blank" rel="noopener noreferrer">
-                      {repository.name} <span aria-hidden="true">↗</span>
-                    </a>
-                    <p>{repository.description || "A project in progress."}</p>
-                  </div>
-                  <div className="english-github-meta">
-                    {repository.language && <span>{repository.language}</span>}
-                    <time dateTime={repository.pushed_at}>
-                      Updated {new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(repository.pushed_at))}
-                    </time>
-                  </div>
-                  <a className="english-github-history" href={`${repository.html_url}/commits`} target="_blank" rel="noopener noreferrer" aria-label={`View ${repository.name} update log`}>
-                    Update log <span aria-hidden="true">↗</span>
-                  </a>
-                </li>
-              ))}
-            </ol>
-          ) : (
-            <p className="english-github-empty">Repository updates are temporarily unavailable. Visit my GitHub profile to see the latest.</p>
-          )}
         </section>
 
         <section className="english-writing" id="blog">
