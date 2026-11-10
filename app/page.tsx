@@ -172,6 +172,9 @@ export default async function HomePage() {
                           {repository.name} <span aria-hidden="true">↗</span>
                         </a>
                         <p>{repository.description || "A project in progress."}</p>
+                        {repository.latestCommitMessage && (
+                          <p className="english-github-commit">Latest commit: {repository.latestCommitMessage}</p>
+                        )}
                       </div>
                       <div className="english-github-meta">
                         {repository.language && <span>{repository.language}</span>}

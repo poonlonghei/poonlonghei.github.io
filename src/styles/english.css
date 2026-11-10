@@ -2038,6 +2038,7 @@
 .english-github-info > a span,
 .english-github-history span { color: #45858a; }
 .english-github-info p { margin: 5px 0 0; overflow: hidden; color: #718087; font-size: 12px; line-height: 1.6; text-overflow: ellipsis; }
+.english-github-info .english-github-commit { color: #397d82; }
 .english-github-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; color: #718087; font-size: 11px; white-space: nowrap; }
 .english-github-meta > span { color: #397d82; }
 .english-github-history { color: #47666d; font-size: 11px; white-space: nowrap; }
