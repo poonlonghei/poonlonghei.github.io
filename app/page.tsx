@@ -4,6 +4,7 @@ import { PageShell } from "@/components/site";
 import { MarkdownContent, MarkdownHeading } from "@/components/markdown-content";
 import { posts } from "@/blog";
 import { projects } from "@/content";
+import { getRecentRepositories } from "@/github";
 import { loadMarkdownPage, type MarkdownSection } from "@/pages";
 
 const page = loadMarkdownPage("home");
@@ -16,8 +17,9 @@ function getSection(title: string): MarkdownSection {
   return section;
 }
 
-export default function HomePage() {
+export default async function HomePage() {
   const latest = posts[0];
+  const repositories = await getRecentRepositories();
   const intro = getSection("Hi, I’m Chavez.");
   const motto = getSection("Motto");
   const about = getSection("Faith, people & the stories between.");
@@ -134,6 +136,44 @@ export default function HomePage() {
           >
             View all my works and projects <span>↗</span>
           </a>
+        </section>
+
+        <section className="english-github" id="github-activity">
+          <div className="english-section-heading">
+            <div>
+              <p className="english-eyebrow">// Open source · recent updates</p>
+              <h2>Building in the open.</h2>
+            </div>
+            <a className="english-text-link" href="https://github.com/poonlonghei?tab=repositories" target="_blank" rel="noopener noreferrer">
+              Browse all repositories <span>↗</span>
+            </a>
+          </div>
+          {repositories.length > 0 ? (
+            <ol className="english-github-list">
+              {repositories.map((repository, index) => (
+                <li className="english-github-item" key={repository.html_url}>
+                  <span className="english-github-index">{String(index + 1).padStart(2, "0")}</span>
+                  <div className="english-github-info">
+                    <a href={repository.html_url} target="_blank" rel="noopener noreferrer">
+                      {repository.name} <span aria-hidden="true">↗</span>
+                    </a>
+                    <p>{repository.description || "A project in progress."}</p>
+                  </div>
+                  <div className="english-github-meta">
+                    {repository.language && <span>{repository.language}</span>}
+                    <time dateTime={repository.pushed_at}>
+                      Updated {new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(repository.pushed_at))}
+                    </time>
+                  </div>
+                  <a className="english-github-history" href={`${repository.html_url}/commits`} target="_blank" rel="noopener noreferrer" aria-label={`View ${repository.name} update log`}>
+                    Update log <span aria-hidden="true">↗</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <p className="english-github-empty">Repository updates are temporarily unavailable. Visit my GitHub profile to see the latest.</p>
+          )}
         </section>
 
         <section className="english-writing" id="blog">
