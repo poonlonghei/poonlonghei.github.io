@@ -2018,7 +2018,7 @@
 .english-github-mark svg { width: 28px; fill: #397d82; }
 .english-github-profile h2 { margin: 0; color: #294b55; font-size: clamp(24px, 3vw, 34px); letter-spacing: -.05em; }
 .english-github-profile-copy { margin: 10px 0 24px; color: #718087; font-size: 13px; line-height: 1.7; }
-.english-github-profile .english-button { min-height: 42px; color: #fff; }
+.english-github-profile .english-button { min-height: 42px; color: #fff !important; }
 .english-github-heading { display: flex; align-items: end; justify-content: space-between; gap: 18px; margin: 0 0 19px; }
 .english-github-heading h3 { margin: 0; color: #294b55; font-size: clamp(21px, 2.6vw, 30px); letter-spacing: -.05em; }
 .english-github-heading .english-eyebrow { margin-bottom: 10px; }
